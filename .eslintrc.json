@@ -1,0 +1,12 @@
+{
+  "extends": "next/core-web-vitals",
+  "rules": {
+    "prettier/prettier": "off",
+    "unicorn/no-null": "off",
+    "unicorn/prevent-abbreviations": "off",
+    "unicorn/prefer-optional-catch-binding": "off",
+    "unicorn/catch-error-name": "off",
+    "simple-import-sort/imports": "off",
+    "simple-import-sort/exports": "off"
+  }
+}

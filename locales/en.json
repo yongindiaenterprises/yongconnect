@@ -1,0 +1,993 @@
+{
+  "home": {
+    "title": "Home - Yong Connect",
+    "description": "Welcome to Yong Connect, your trusted partner in innovative vending solutions. Explore our cutting-edge vending machines and business models designed to drive profitability and convenience.",
+    "meta": {
+      "title": "Home - Yong Connect",
+      "description": "Welcome to Yong Connect, your trusted partner in innovative vending solutions. Explore our cutting-edge vending machines and business models designed to drive profitability and convenience."
+    },
+    "hero": {
+      "catchPhrase": "Start with just ₹15k",
+      "cta": {
+        "label": "Discover your investment options",
+        "subLabel": "Schedule your consultation today",
+        "button": "Schedule Meeting"
+      },
+      "caption": {
+        "main": "Turn opportunities into profits with our cutting-edge",
+        "sub": "vending solutions."
+      },
+      "businessModel": {
+        "label": "Explore our diverse business models:",
+        "1": "Annual Contract",
+        "2": "White Labelling",
+        "3": "Corporate Bulk Services",
+        "4": "Rental and Profit Sharing",
+        "moreInfo": "Tap into a thriving global market with our innovative vending machine solutions"
+      }
+    },
+    "plans": {
+      "rental": {
+        "title": "FlexiRent Plan",
+        "subTitle": "Monthly Rental Plan",
+        "features": {
+          "1": "Monthly Rental: ₹15,000 + GST",
+          "2": "Delivery and Installation Charges: ₹5,000 + GST",
+          "3": "Own Software: Quick and Fast Service",
+          "4": "UPI Payment Services",
+          "5": "Different Product Range",
+          "6": "24x7 Customer Care and Services",
+          "7": ""
+        },
+        "cta": {
+          "label": "Contact Sales"
+        }
+      },
+      "retail": {
+        "title": "RetailPro Plan",
+        "subTitle": "Start with 1 Machine",
+        "features": {
+          "1": "Start business with 1 machine",
+          "2": "Scale up business - Unlimited numbers",
+          "3": "Investment starting from ₹6 lakhs",
+          "4": "Machine maintenance and technical support",
+          "5": "We provide location and installation",
+          "6": "Own software service: Inventory management and operation made easy",
+          "7": "Remote monitoring and control system"
+        },
+        "cta": {
+          "label": "Contact Sales"
+        }
+      },
+      "hybrid": {
+        "title": "Hybrid Plan",
+        "subTitle": "Own Machine and Rental Machine",
+        "features": {
+          "1": "Refilling and stock management by client",
+          "2": "Operational monthly income starting from ₹10,000",
+          "3": "Unlimited income opportunity",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": ""
+        },
+        "cta": {
+          "label": "Contact Sales"
+        }
+      },
+      "partnership": {
+        "title": "VendorConnect Plan",
+        "subTitle": "Join Us Under One Roof",
+        "features": {
+          "1": "Vendors can club with us under one roof",
+          "2": "Enjoy good brand image",
+          "3": "Stable income",
+          "4": "Own software and good operational system",
+          "5": "Scale-up opportunity",
+          "6": "Different kinds of machines available",
+          "7": ""
+        },
+        "cta": {
+          "label": "Contact Sales"
+        }
+      },
+      "enterprise": {
+        "title": "BeverageBoost Plan",
+        "subTitle": "For Companies like Milma, Amul, etc.",
+        "features": {
+          "1": "We provide a wide range of outdoor vending machines",
+          "2": "Support for operation and maintenance (product filling)",
+          "3": "UPI and inventory management system",
+          "4": "Own software",
+          "5": "We find locations for you",
+          "6": "Support retail and branding",
+          "7": ""
+        },
+        "cta": {
+          "label": "Contact Sales"
+        }
+      }
+    },
+    "howInvestmentWorks": {
+      "title": "How our investment works",
+      "subTitle": "Analysis - purchase of a ₹5 lakh machine",
+      "header": {
+        "planDays": "365 Days",
+        "total": "Total"
+      },
+      "splitup": {
+        "r1": {
+          "title": "Variable sales over an year",
+          "c1": "120",
+          "c2": "100",
+          "c3": "80",
+          "c4": "65"
+        },
+        "r2": {
+          "title": "Sale projection in units",
+          "c1": "50",
+          "c2": "199",
+          "c3": "200",
+          "c4": "50"
+        },
+        "r3": {
+          "title": "Cost of material (e.g. coke) - ₹30/unit",
+          "c1": "180,000",
+          "c2": "300,000",
+          "c3": "480,000",
+          "c4": "180,000",
+          "c5": "1,545,000"
+        },
+        "r4": {
+          "title": "Total Sales Cost - ₹50/unit",
+          "c1": "300,000",
+          "c2": "500,000",
+          "c3": "800,000",
+          "c4": "300,000",
+          "c5": "2,575,000"
+        }
+      },
+      "download": "Download Detailed Analysis",
+      "profitDetails": {
+        "c1": {
+          "label": "Total profit from sales in a year",
+          "value": "1,030,000"
+        },
+        "c2": {
+          "label": "Vendor cost for refilling, per year - ₹1000/day",
+          "value": "365,000"
+        },
+        "c3": {
+          "label": "Electricity cost per year - ₹10,000/month",
+          "value": "120,000"
+        },
+        "c4": {
+          "label": "Maintenance cost per year (10% of machine cost)",
+          "value": "50,000"
+        },
+        "c5": {
+          "label": "Location rental cost per year - ₹20,000/month",
+          "value": "240,000"
+        },
+        "c6": {
+          "label": "Net profit per year",
+          "value": "2,55,000"
+        },
+        "total": {
+          "label": "3 year profit with 30% negative variation",
+          "value": "535,500"
+        }
+      }
+    },
+    "relatedServices": {
+      "title": "Our related services",
+      "moreInfo": "Our expertise extends beyond standard vending machine solutions. Explore our diverse offerings designed to optimize performance, enhance customer experiences, and maximize profitability.",
+      "services": {
+        "sales": {
+          "title": "Sales of indoor, outdoor, and refurbished vending machines",
+          "options": {
+            "1": "Wide range of certified machines for diverse settings.",
+            "2": "Cost-effective refurbished options with assured quality."
+          }
+        },
+        "iotIntegration": {
+          "title": "Custom operating systems with IoT integration",
+          "options": {
+            "1": "Advanced OS upgrades for existing machines.",
+            "2": "Seamless IoT connectivity and modern payment solutions."
+          }
+        },
+        "analytics": {
+          "title": "Analytics software panel",
+          "options": {
+            "1": "Real-time data tracking for sales, inventory, and performance.",
+            "2": "Actionable insights to optimize vending operations."
+          }
+        },
+        "repairs": {
+          "title": "Repairs, Troubleshooting, and Spare Parts supply",
+          "options": {
+            "1": "Quick repair services and technical troubleshooting.",
+            "2": "Genuine spare parts for various vending machine models."
+          }
+        },
+        "whiteLabel": {
+          "title": "White labeling and branding solutions",
+          "options": {
+            "1": "Customizable vending machines for brand visibility.",
+            "2": "Perfect for corporate and franchise branding needs."
+          }
+        },
+        "maintenance": {
+          "title": "Maintenance and Support Care",
+          "options": {
+            "1": "Comprehensive servicing and updates for optimal performance.",
+            "2": "Tailored solutions for corporate, retail, and franchise businesses."
+          }
+        }
+      }
+    },
+    "adminDashboard": {
+      "title": "Detailed admin Panel",
+      "features": {
+        "liveStockStatus": "Live Stock Status",
+        "salesPrediction": "Sales Prediction",
+        "notificationAlerts": "Notification Alerts",
+        "maintenanceStatus": "Maintenance Status",
+        "accounting": "Accounting",
+        "plReports": "P&L Reports",
+        "salesGraph": "Sales Graph"
+      },
+      "subTitle": "Visualize data with powerful charts & analytics",
+      "description": "Empower your vending business with actionable insights, track sales, growth trends, and profit shares at a glance to maximize performance and drive smarter decisions.",
+      "cta": {
+        "label": "Schedule Meeting for Demo"
+      },
+      "topSalesTable": {
+        "title": "Top selling items - Week 3, October, 2024",
+        "header": {
+          "id": "id",
+          "name": "Name",
+          "category": "Category",
+          "unitsSold": "Units Sold",
+          "pecentageGrowthInSales": "% Growth in Sales",
+          "percentageShareInProfit": "% Share in Profit",
+          "profitMarginPercentage": "Profit Margin (%)"
+        },
+        "rows": {
+          "1": {
+            "id": "1783",
+            "name": "Coke",
+            "category": "Beverages",
+            "unitsSold": "1,000",
+            "pecentageGrowthInSales": "10%",
+            "percentageShareInProfit": "10%",
+            "profitMarginPercentage": "10%"
+          },
+          "2": {
+            "id": "1744",
+            "name": "Snikers",
+            "category": "Snacks",
+            "unitsSold": "2,000",
+            "pecentageGrowthInSales": "+20%",
+            "percentageShareInProfit": "20%",
+            "profitMarginPercentage": "20%"
+          },
+          "3": {
+            "id": "1745",
+            "name": "Lays - Red",
+            "category": "Snacks",
+            "unitsSold": "3,000",
+            "pecentageGrowthInSales": "+30%",
+            "percentageShareInProfit": "30%",
+            "profitMarginPercentage": "30%"
+          },
+          "4": {
+            "id": "1097",
+            "name": "Tropicana - Orange",
+            "category": "Beverages",
+            "unitsSold": "4,000",
+            "pecentageGrowthInSales": "+40%",
+            "percentageShareInProfit": "40%",
+            "profitMarginPercentage": "40%"
+          },
+          "5": {
+            "id": "1746",
+            "name": "Monster Drink",
+            "category": "Beverages",
+            "unitsSold": "5,000",
+            "pecentageGrowthInSales": "+50%",
+            "percentageShareInProfit": "50%",
+            "profitMarginPercentage": "50%"
+          }
+        }
+      },
+      "salesGraph": {
+        "title": "Overall sales this week",
+        "chart": {
+          "currency": "₹",
+          "xAxis": "Day",
+          "yAxis": "In thousands INR",
+          "data": {
+            "1": {
+              "name": "Mon",
+              "value": "50",
+              "diff": "+32%"
+            },
+            "2": {
+              "name": "Tue",
+              "value": "100",
+              "diff": "-32%"
+            },
+            "3": {
+              "name": "Wed",
+              "value": "90",
+              "diff": "+32%"
+            },
+            "4": {
+              "name": "Thu",
+              "value": "120",
+              "diff": "-32%"
+            },
+            "5": {
+              "name": "Fri",
+              "value": "200",
+              "diff": "-32%"
+            },
+            "6": {
+              "name": "Sat",
+              "value": "300",
+              "diff": "-32%"
+            },
+            "7": {
+              "name": "Sun",
+              "value": "375",
+              "diff": "-32%"
+            }
+          }
+        }
+      },
+      "locationBasedSales": {
+        "title": "Location based profit share (October)",
+        "chart": {
+          "data": {
+            "1": {
+              "name": "Bangalore",
+              "value": "20"
+            },
+            "2": {
+              "name": "Chennai",
+              "value": "15"
+            },
+            "3": {
+              "name": "Kochi",
+              "value": "20"
+            },
+            "4": {
+              "name": "Kolkata",
+              "value": "10"
+            },
+            "5": {
+              "name": "New Delhi",
+              "value": "5"
+            }
+          }
+        }
+      }
+    },
+    "paymentServices": {
+      "label": "Payment Gateway",
+      "title": "Built in payment integration with UPI",
+      "description": "Customers can simply scan a QR code or use their UPI IDs to complete purchases without fumbling for cash or cards.",
+      "manyMore": "+ many more"
+    },
+    "globalPresence": {
+      "title": "Our Global Presence",
+      "countries": {
+        "country-1": {
+          "title": "India",
+          "label": "3 Locations"
+        },
+        "country-2": {
+          "title": "Japan",
+          "label": "340 Locations"
+        },
+        "country-3": {
+          "title": "Vietnam",
+          "label": "14 Locations"
+        },
+        "country-4": {
+          "title": "Philippines",
+          "label": "9 Locations"
+        },
+        "country-5": {
+          "title": "United Kingdom",
+          "label": "7 Locations"
+        }
+      }
+    },
+    "trustedCompanies": {
+      "companies": {
+        "samsung": {
+          "title": "Samsung"
+        },
+        "apple": {
+          "title": "Apple"
+        },
+        "hp": {
+          "title": "HP"
+        },
+        "sony": {
+          "title": "Sony"
+        },
+        "lg": {
+          "title": "LG"
+        },
+        "toshiba": {
+          "title": "Toshiba"
+        },
+        "mitsubishi": {
+          "title": "Mitsubishi"
+        },
+        "fujitsu": {
+          "title": "Fujitsu"
+        }
+      }
+    }
+  },
+  "about": {
+    "detail-1": {
+      "title": "About Us",
+      "description": "YONG is a one-stop shop for all vending solutions in India. As one of the oldest and most trusted vending machine suppliers in the country with over 20 years of experience, we take pride in being the preferred choice for India's largest companies and vending machine operators. Our commitment to excellence is reflected in our premium quality machines and exceptional service and support.",
+      "excellence": "More than 20 Years of Excellence"
+    },
+    "detail-2": {
+      "title": "Our mission",
+      "description": "Making everyday convenience available- Easier, Smarter, Safer! Staying Consumer Centric, Data led and Values based in everything we do."
+    },
+    "detail-3": {
+      "title": "Our vision",
+      "description": "To be the foremost in the Vending Machine industry and allied."
+    },
+    "detail-4": {
+      "statistic-1": {
+        "count": "10+",
+        "sub-heading": "successful",
+        "heading": "Years"
+      },
+      "statistic-2": {
+        "count": "200+",
+        "sub-heading": "happy",
+        "heading": "Clients"
+      },
+      "statistic-3": {
+        "count": "50+",
+        "sub-heading": "worldwide",
+        "heading": "Locations"
+      },
+      "statistic-4": {
+        "count": "50,000+",
+        "sub-heading": "deployed",
+        "heading": "Machines"
+      }
+    },
+    "detail-5": {
+      "title": "Our expertise",
+      "description": "With over 10 years of experience, we've built a reputation for delivering reliable vending machines, robust software, and exceptional customer service. From small businesses to large corporations, we've partnered with clients globally to create customized vending solutions that drive success."
+    },
+    "detail-6": {
+      "title": "Unique selling point",
+      "point-1": "State-of-the-art vending machines (indoor, outdoor, refurbished).",
+      "point-2": "Advanced IoT-enabled systems and analytics software.",
+      "point-3": "Tailored white-label and branding services.",
+      "point-4": "Commitment to sustainability and energy-efficient technology."
+    },
+    "detail-7": {
+      "title": "Core Values",
+      "point-1": "Integrity: We conduct our business with honesty and transparency.",
+      "point-2": "Innovation: We continually seek new ways to improve our products and services.",
+      "point-3": "Customer-Centricity: Our customers are at the heart of everything we do.",
+      "point-4": "Sustainability: We are committed to environmentally friendly practices in our operations."
+    },
+    "detail-10": {
+      "title": "Commitment to Innovation",
+      "description": "At Yong Enterprises, we are dedicated to integrating cutting-edge technology into our products. Our team stays ahead of industry trends, ensuring that we provide clients with the most advanced vending solutions available."
+    },
+    "detail-11": {
+      "title": "Customer Focus",
+      "description": "We believe in building strong relationships with our clients. Our customer-centric approach has led to numerous success stories. Here's what some of our satisfied clients have to say:"
+    },
+    "detail-12": {
+      "feedback-1": {
+        "feedback": "We partnered with Yong for our office vending needs, and the results have been phenomenal. Their customized solutions, paired with IoT integration, have streamlined our operations while providing employees with quick, convenient access to snacks and beverages. Highly recommended!",
+        "client": {
+          "name": "Jane D",
+          "designation": "Operations Manager",
+          "organization": "TechWorks Inc."
+        }
+      },
+      "feedback-2": {
+        "feedback": "We've been using refurbished vending machines from Yong, and they are as good as new! The cost savings have been incredible, and the profit-sharing model with FMCG companies like Amul and Nandini has boosted our revenue significantly",
+        "client": {
+          "name": "Sarah L",
+          "designation": "Store Manager",
+          "organization": "Tokyo trades"
+        }
+      },
+      "feedback-3": {
+        "feedback": "The corporate bulk vending solutions offered by Yong exceeded our expectations. Their white-label service allowed us to showcase our branding seamlessly while ensuring high-quality service for our clients.",
+        "client": {
+          "name": "Anil M",
+          "designation": "CEO",
+          "organization": "Global Foods"
+        }
+      },
+      "feedback-4": {
+        "feedback": "What sets Yong apart is their dedication to customer satisfaction. Their maintenance plans are comprehensive and reliable, keeping all our machines running smoothly. It's rare to find a company this committed to excellence.",
+        "client": {
+          "name": "Emily W",
+          "designation": "Facility Manager,",
+          "organization": "Horizon Corp."
+        }
+      },
+      "feedback-5": {
+        "feedback": "Starting a vending business was a breeze with Yong. Their guidance, top-notch machines, and transparent rental plans made the process hassle-free. I'm already seeing great returns!",
+        "client": {
+          "name": "Ahmed K",
+          "designation": "CEO",
+          "organization": "Local first at Bengaluru"
+        }
+      }
+    }
+  },
+  "header": {
+    "links": {
+      "aboutUs": "About Us",
+      "yongConnect": "Yong Connect",
+      "support": "Support",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    },
+    "cta": {
+      "schedule": "Schedule Meeting"
+    }
+  },
+  "footer": {
+    "locales": {
+      "en": "English",
+      "jp": "Japanese"
+    },
+    "copyright": "© 2025 Yong Connect. All rights reserved.",
+    "action": {
+      "getCatalog": "Get out Product Catalog",
+      "emailAddress": "Email Address"
+    },
+    "links": {
+      "plans": "Plans",
+      "relatedServices": "Related Services",
+      "products": "Products",
+      "globalPresence": "Global Presence",
+      "yongConnect": "Yong Connect",
+      "support": "Support",
+      "contact": "Contact Us",
+      "about": "About Us"
+    },
+    "offices": {
+      "trivandrum": {
+        "address": "Tc: 22/835, Mir-4, Mangalam Lane-1, Sasthamangalam P.O, Trivandrum, Kerala-695010",
+        "phone": "+91-471-2323232",
+        "email": "trivandrum@yongconnect.com"
+      },
+      "cochin": {
+        "address": "Michael Tower: 26/132-135, Civil Lane Road, Padamugal Junction, Thrikkakara, Thrikkakara North (Part), Ernakulam, Kerala-682",
+        "phone": "+91-484-2323232",
+        "email": "cochin@yongconnect.com"
+      },
+      "malappuram": {
+        "address": "17/397, Industrial Estate, Doty Road, Pandikkad P.O, Malappuram, Kerala 676521",
+        "phone": "+91-483-2323232",
+        "email": "malappuram@yongconnect.com"
+      }
+    }
+  },
+  "products": {
+    "title": "Products",
+    "description": "We offer a wide range of products to meet your needs.",
+    "conditionWarning": "*Conditions apply, please read related documents carefully.",
+    "commonFeatures": {
+      "iotEnabled": {
+        "title": "IoT Enabled",
+        "description": "Integrated IoT system tracks inventory, notifying operators when restocking is needed, ensuring optimal product availability."
+      },
+      "tftScreen": {
+        "title": "ISO certified TFT touch display",
+        "description": "Offers an intuitive interface that simplifies product selection, supports interactive advertisements, and streamlines payments."
+      }
+    },
+    "products": {
+      "INF4B": {
+        "title": "Infinity INF4B Refrigeration Unit",
+        "shortTitle": "INF4B Unit",
+        "description": "Commercial refrigeration unit for indoor use.",
+        "mrp": "N/A",
+        "price": "N/A",
+        "cta": {
+          "label": "Find More Info"
+        },
+        "specs": {
+          "model": {
+            "title": "Model",
+            "description": "INF4B"
+          },
+          "dimensions": {
+            "title": "Dimensions",
+            "description": "N/A"
+          },
+          "power": {
+            "title": "Power",
+            "description": "230V AC, 50 Hz, 1 Phase, 2.3 Amps"
+          },
+          "weight": {
+            "title": "Weight",
+            "description": "N/A"
+          },
+          "refrigerant": {
+            "title": "Refrigerant",
+            "description": "R134a"
+          }
+        },
+        "features": {
+          "capacity": {
+            "title": "Capacity",
+            "description": "Up to 300 bottles/cans across 18 product selections"
+          },
+          "touchScreen": {
+            "title": "Touch Screen",
+            "description": "No touchscreen"
+          },
+          "iotEnabled": {
+            "title": "IoT Enabled",
+            "description": "MDB/DEX ports for telemetry readiness and remote monitoring"
+          },
+          "payment": {
+            "title": "Payment Gateway",
+            "description": "UPI, Cash, Card, Paytm, Google Pay, PhonePe, etc."
+          },
+          "efficiency": {
+            "title": "Energy Efficient Design",
+            "description": "Designed for reliable cooling with a 2.3 Amp power draw."
+          },
+          "customization": {
+            "title": "Customizable",
+            "description": "Branding options available for corporate and retail needs."
+          },
+          "durable": {
+            "title": "Durable",
+            "description": "All-steel construction with rust-proof powder coating, Anti-theft: Reinforced cabinet, T-handle locks"
+          },
+          "idealFor": {
+            "title": "Ideal for",
+            "description": "High-traffic locations (e.g., offices, schools, hospitals) due to large capacity and reliability"
+          }
+        },
+        "keyFeatures": {
+          "efficiency": {
+            "title": "Efficient Operation",
+            "description": "Designed for reliable cooling with a 2.3 Amp power draw."
+          },
+          "packets": {
+            "title": "Upto 300 bottles/cans across 18 product selections",
+            "description": "Adjustable shelves to accommodate various product sizes"
+          },
+          "payment": {
+            "title": "Pay with UPI/Cash/Card",
+            "description": "Use your favorite app like Google Pay, PhonePe, Paytm, etc."
+          }
+        },
+        "featureDescriptions": {
+          "iotEnabled": {
+            "label": "IoT Enabled",
+            "description": "MDB/DEX ports for telemetry readiness and remote monitoring"
+          },
+          "touchScreen": {
+            "label": "Touch Screen",
+            "description": "No touchscreen"
+          },
+          "payment": {
+            "label": "Payment Methods",
+            "description": "UPI, Cash, Card, Paytm, Google Pay, PhonePe, etc."
+          },
+          "efficiency": {
+            "label": "Efficiency",
+            "description": "Designed for reliable cooling with a 2.3 Amp power draw."
+          },
+          "warranty": {
+            "label": "Warranty",
+            "description": "10 years of service and repair"
+          }
+        }
+      },
+      "INF4C": {
+        "title": "Seaga INF4C Combo Vending Machine",
+        "shortTitle": "INF4C Combo",
+        "description": "Compact beverage and snack vending machine with MDB/DEX capabilities for indoor commercial use.",
+        "mrp": "N/A",
+        "price": "N/A",
+        "cta": {
+          "label": "Find More Info"
+        },
+        "specs": {
+          "model": {
+            "title": "Model",
+            "description": "INF4C"
+          },
+          "dimensions": {
+            "title": "Dimensions",
+            "description": "72\"H x 39\"W x 37\"D (9.75 sq. ft. floor space)"
+          },
+          "power": {
+            "title": "Power",
+            "description": "115V AC, 60Hz (4.4 Amp running current for refrigerated models)"
+          },
+          "weight": {
+            "title": "Weight",
+            "description": "N/A"
+          },
+          "refrigerant": {
+            "title": "Refrigerant",
+            "description": "Cyclopentane insulation (eco-friendly)"
+          }
+        },
+        "features": {
+          "capacity": {
+            "title": "Capacity",
+            "description": "Combined beverage and snack vending with adjustable shelves for product flexibility"
+          },
+          "touchScreen": {
+            "title": "Touch Screen",
+            "description": "Scroll price display (no touchscreen)"
+          },
+          "iotEnabled": {
+            "title": "IoT Enabled",
+            "description": "MDB/DEX compatible for inventory management and remote monitoring"
+          },
+          "payment": {
+            "title": "Payment Gateway",
+            "description": "Cashless payment support via MDB/DEX (specific methods not detailed)"
+          },
+          "efficiency": {
+            "title": "Energy Efficient Design",
+            "description": "High-efficiency refrigeration with LED lighting and timed vending"
+          },
+          "customization": {
+            "title": "Customizable",
+            "description": "Height-adjustable shelves, dual coils, and tray configurations for diverse products"
+          },
+          "durable": {
+            "title": "Durable",
+            "description": "Interlock door construction, Endura motors (2M+ vend tested), double-pane glass"
+          },
+          "idealFor": {
+            "title": "Ideal for",
+            "description": "Offices, retail spaces, and high-traffic areas with limited space"
+          }
+        },
+        "keyFeatures": {
+          "efficiency": {
+            "title": "Efficient Operation",
+            "description": "Side-in cooling deck and cyclopentane insulation for reduced energy use"
+          },
+          "packets": {
+            "title": "Product Flexibility",
+            "description": "Dual coils and adjustable trays for snacks/beverages"
+          },
+          "payment": {
+            "title": "Payment Gateway",
+            "description": "Meets US ADA standards and indoor environmental requirements"
+          }
+        },
+        "featureDescriptions": {
+          "iotEnabled": {
+            "label": "IoT Enabled",
+            "description": "MDB/DEX ports for telemetry and reporting"
+          },
+          "payment": {
+            "label": "Payment Gateway",
+            "description": "UPI, Cash, Card, Paytm, Google Pay, PhonePe, etc."
+          },
+          "touchScreen": {
+            "label": "Display",
+            "description": "LCD text display (non-touch)"
+          },
+          "warranty": {
+            "label": "Warranty",
+            "description": "N/A"
+          },
+          "efficiency": {
+            "label": "Efficiency",
+            "description": "Runs on 4.4 Amps at 115V AC (refrigerated mode) with a side-in cooling deck and cyclopentane insulation, reducing power draw compared to conventional systems."
+          }
+        }
+      },
+      "SEC3530": {
+        "title": "G-Snack Design Line SC6 Vending Machine",
+        "shortTitle": "SEC3530 Unit",
+        "description": "Commercial refrigeration unit for indoor use with multiple safety and compliance certifications.",
+        "mrp": "N/A",
+        "price": "N/A",
+        "cta": {
+          "label": "Find More Info"
+        },
+        "specs": {
+          "model": {
+            "title": "Model",
+            "description": "SEC3530"
+          },
+          "dimensions": {
+            "title": "Dimensions",
+            "description": "1830mm H x 830mm W x 845mm D"
+          },
+          "power": {
+            "title": "Power",
+            "description": "230/240V AC, 50/60Hz, Max. consumption: 350W"
+          },
+          "weight": {
+            "title": "Weight",
+            "description": "275 kg"
+          },
+          "refrigerant": {
+            "title": "Refrigerant",
+            "description": "HCD cooling unit"
+          }
+        },
+        "features": {
+          "capacity": {
+            "title": "Capacity",
+            "description": "Up to 42 selections with standard 6 shelves (maximum 7 shelves)"
+          },
+          "touchScreen": {
+            "title": "Touch Screen",
+            "description": "Not specified"
+          },
+          "iotEnabled": {
+            "title": "IoT Enabled",
+            "description": "Supports Executive/MDB protocols for inventory management and remote monitoring"
+          },
+          "payment": {
+            "title": "Payment Gateway",
+            "description": "UPI, Cash, Card, Paytm, Google Pay, PhonePe, etc."
+          },
+          "efficiency": {
+            "title": "Energy Efficient Design",
+            "description": "Energy consumption: 629 kWh/annum (Cat. 2), 798 kWh/annum (Cat. 3), 793 kWh/annum (Cat. 4)"
+          },
+          "customization": {
+            "title": "Customizable",
+            "description": "Options include Speedy Lift, e-labeling, rotary & belt system, sandwich/baguette kit, motorized lock delivery eyelet, and customized cabinet color"
+          },
+          "durable": {
+            "title": "Durable",
+            "description": "Designed to pass through narrow passages with split function separating main body from payment column"
+          },
+          "idealFor": {
+            "title": "Ideal for",
+            "description": "High-end offices and upscale environments"
+          }
+        },
+        "keyFeatures": {
+          "efficiency": {
+            "title": "Efficient Operation",
+            "description": "Electronic cooling system control with internal temperature range of +2°C to +18°C"
+          },
+          "packets": {
+            "title": "Product Flexibility",
+            "description": "Accommodates a large array of F&B products as well as extra-vending merchandise of various sizes and shapes"
+          },
+          "payment": {
+            "title": "Payment Gateway",
+            "description": "UPI, Cash, Card, Paytm, Google Pay, PhonePe, etc."
+          }
+        },
+        "featureDescriptions": {
+          "iotEnabled": {
+            "label": "IoT Enabled",
+            "description": "Supports telemetry and reporting via Executive/MDB protocols"
+          },
+          "payment": {
+            "label": "Payment Gateway",
+            "description": "Compatible with various payment systems supporting Executive/MDB protocols"
+          },
+          "touchScreen": {
+            "label": "Display",
+            "description": "Not specified"
+          },
+          "warranty": {
+            "label": "Warranty",
+            "description": "Not specified"
+          },
+          "efficiency": {
+            "label": "Efficiency",
+            "description": "Energy consumption: 629 kWh/annum (Cat. 2), 798 kWh/annum (Cat. 3), 793 kWh/annum (Cat. 4)"
+          }
+        }
+      }
+    }
+  },
+  "support": {
+    "title": "Support",
+    "subTitle": "Need some help? Feel free to contact us.",
+    "cta": "Contact Support",
+    "form": {
+      "title": "Contact Support",
+      "submit": "Submit",
+      "submitting": "Submitting...",
+      "success": {
+        "title": "Message Sent!",
+        "message": "We'll get back to you as soon as possible.",
+        "close": "Close"
+      },
+      "fields": {
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter your name"
+        },
+        "email": {
+          "label": "Email",
+          "placeholder": "Enter your email"
+        },
+        "phone": {
+          "label": "Phone",
+          "placeholder": "Enter your phone number"
+        },
+        "subject": {
+          "label": "Subject",
+          "placeholder": "Select a subject",
+          "options": {
+            "technical": "Technical Support",
+            "billing": "Billing Support",
+            "general": "General Inquiry"
+          }
+        },
+        "message": {
+          "label": "Message",
+          "placeholder": "How can we help you?"
+        }
+      }
+    }
+  },
+  "meetingForm": {
+    "title": "Schedule a Meeting",
+    "description": "Fill out the form below to schedule a meeting with our team.",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "timeSlot": "Select a Time Slot",
+    "timeSlotPlaceholder": "Choose a convenient time",
+    "content": "Additional Information",
+    "contentPlaceholder": "Tell us about your requirements",
+    "submit": "Schedule Meeting",
+    "submitting": "Scheduling...",
+    "success": {
+      "title": "Meeting Request Sent!",
+      "message": "Please check your email for the meeting details and calendar invite.",
+      "close": "Close"
+    }
+  },
+  "contactSalesForm": {
+    "title": "Contact Sales",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "email": "Email",
+    "emailPlaceholder": "Enter your email",
+    "phone": "Phone",
+    "phonePlaceholder": "Enter your phone number",
+    "submit": "Submit",
+    "submitting": "Submitting...",
+    "success": {
+      "title": "Request Sent!",
+      "message": "Our sales team will contact you shortly.",
+      "close": "Close"
+    }
+  }
+}

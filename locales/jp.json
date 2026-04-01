@@ -1,0 +1,997 @@
+{
+  "home": {
+    "title": "ホーム",
+    "description": "Yong Connectへようこそ。革新的な自動販売機ソリューションの信頼できるパートナーです。収益性と利便性を追求した最先端の自動販売機とビジネスモデルをご覧ください。",
+    "meta": {
+      "title": "ホーム",
+      "description": "Yong Connectへようこそ。革新的な自動販売機ソリューションの信頼できるパートナーです。収益性と利便性を追求した最先端の自動販売機とビジネスモデルをご覧ください。"
+    },
+    "hero": {
+      "catchPhrase": "₹15kで始める",
+      "cta": {
+        "label": "投資オプションを発見する",
+        "subLabel": "今日のミーティングを予定する",
+        "button": "ミーティングを予定する"
+      },
+      "caption": {
+        "main": "オポチュートをプロフェッショナルに",
+        "sub": "ベンダーソリューションに変える。"
+      },
+      "businessModel": {
+        "label": "ビジネスモデルを見る",
+        "1": "年間契約",
+        "2": "白書き",
+        "3": "大規模バルクサービス",
+        "4": "レンタルと収益共有",
+        "moreInfo": "私たちの創業的なベンダーソリューションにより、グローバルなマーケットに繋がる"
+      }
+    },
+    "plans": {
+      "rental": {
+        "title": "レンタルプラン「モンスタードリンク」",
+        "subTitle": "月額レンタルプラン",
+        "features": {
+          "1": "月額レンタル: ₹15,000 + GST",
+          "2": "配送と設置費用: ₹5,000 + GST",
+          "3": "独自ソフトウェア: 迅速なサービス",
+          "4": "UPI支払いサービス",
+          "5": "多様な製品ラインナップ",
+          "6": "24x7カスタマーケアとサービス",
+          "7": ""
+        },
+        "cta": {
+          "label": "営業に連絡"
+        }
+      },
+      "retail": {
+        "title": "AMC/リテールプラン",
+        "subTitle": "₹5,000以上から始める",
+        "features": {
+          "1": "1台の機械でビジネスを開始",
+          "2": "ビジネスを拡大 - 無制限の台数",
+          "3": "₹6 lakhsからの投資",
+          "4": "機械のメンテナンスと技術サポート",
+          "5": "場所と設置を提供",
+          "6": "独自ソフトウェアサービス: 在庫管理と操作が簡単",
+          "7": "リモート監視と制御システム"
+        },
+        "cta": {
+          "label": "営業に連絡"
+        }
+      },
+      "hybrid": {
+        "title": "ハイブリッドプラン",
+        "subTitle": "自社機械とレンタル機械",
+        "features": {
+          "1": "補充と在庫管理はクライアントが行う",
+          "2": "月額収入は₹10,000から",
+          "3": "無制限の収益機会",
+          "4": "",
+          "5": "",
+          "6": "",
+          "7": ""
+        },
+        "cta": {
+          "label": "営業に連絡"
+        }
+      },
+      "partnership": {
+        "title": "VendorConnectプラン",
+        "subTitle": "一つの屋根の下で参加",
+        "features": {
+          "1": "ベンダーは一つの屋根の下で参加可能",
+          "2": "良いブランドイメージを享受",
+          "3": "安定した収入",
+          "4": "独自ソフトウェアと優れた運用システム",
+          "5": "拡大の機会",
+          "6": "さまざまな種類の機械が利用可能",
+          "7": ""
+        },
+        "cta": {
+          "label": "営業に連絡"
+        }
+      },
+      "enterprise": {
+        "title": "BeverageBoostプラン",
+        "subTitle": "Milma、Amulなどの企業向け",
+        "features": {
+          "1": "幅広い屋外自動販売機を提供",
+          "2": "運用とメンテナンスのサポート（製品補充）",
+          "3": "UPIと在庫管理システム",
+          "4": "独自ソフトウェア",
+          "5": "場所を提供",
+          "6": "小売とブランディングをサポート",
+          "7": ""
+        },
+        "cta": {
+          "label": "営業に連絡"
+        }
+      }
+    },
+    "howInvestmentWorks": {
+      "title": "私たちの投資方法",
+      "subTitle": "解析 - ₹5万マイクロマシンの購入",
+      "header": {
+        "total": "合計",
+        "planDays": "月数"
+      },
+      "splitup": {
+        "r1": {
+          "title": "年間の変動の可能性",
+          "c1": "120",
+          "c2": "100",
+          "c3": "80",
+          "c4": "65"
+        },
+        "r2": {
+          "title": "売上の比率",
+          "c1": "50",
+          "c2": "199",
+          "c3": "200",
+          "c4": "50"
+        },
+        "r3": {
+          "title": "単価の変動 (例: コーラ) - ₹30/単位",
+          "c1": "180,000",
+          "c2": "300,000",
+          "c3": "480,000",
+          "c4": "180,000",
+          "c5": "1,545,000"
+        },
+        "r4": {
+          "title": "総売上の計算 - ₹50/単位",
+          "c1": "300,000",
+          "c2": "500,000",
+          "c3": "800,000",
+          "c4": "300,000",
+          "c5": "2,575,000"
+        }
+      },
+      "download": "詳細分析をダウンロード",
+      "profitDetails": {
+        "c1": {
+          "label": "年間の売上の合計",
+          "value": "1,030,000"
+        },
+        "c2": {
+          "label": "再製造のための料金の合計 (毎年) - ₹1000/日",
+          "value": "365,000"
+        },
+        "c3": {
+          "label": "年間の電力の合計 (毎月) - ₹10,000",
+          "value": "120,000"
+        },
+        "c4": {
+          "label": "年間のメンテナンスの合計 (10%の機械のコスト)",
+          "value": "50,000"
+        },
+        "c5": {
+          "label": "年間の場所のレンタルの合計 (毎月) - ₹20,000",
+          "value": "240,000"
+        },
+        "c6": {
+          "label": "年間の収益の合計",
+          "value": "2,55,000"
+        },
+        "total": {
+          "label": "30%の負債を含む3年間の収益",
+          "value": "535,500"
+        }
+      }
+    },
+    "relatedServices": {
+      "title": "相互のサービス",
+      "moreInfo": "私たちの一般的なベンダーマシンソリューションの前に、私たちは多様なオプションを提供しています。あなたのビジネスに合わせて、あなたのビジネスに合わせて最適な方法で、投資を取り始めましょう。",
+      "services": {
+        "sales": {
+          "title": "家の外での販売と売上",
+          "options": {
+            "1": "多様な証明書の機械の幅広いセット。",
+            "2": "効果的な再製造オプションと信頼性の高い品質。"
+          }
+        },
+        "iotIntegration": {
+          "title": "カスタムオペレーティングシステム",
+          "options": {
+            "1": "既存の機械のアップグレードの高度なオペレーション。",
+            "2": "インテルティック接続と現代の支払いソリューションのシームレスな接続。"
+          }
+        },
+        "analytics": {
+          "title": "アナリティクスとトレードオンデマンド",
+          "options": {
+            "1": "ビジネスのアナリティクスとトレードオンデマンド。",
+            "2": "コーポレートなベンダーソリューション。"
+          }
+        },
+        "repairs": {
+          "title": "レンタルと収益共有",
+          "options": {
+            "1": "レンタルと収益共有のカスタムソリューション。",
+            "2": "グローバルなマーケットに繋がる。"
+          }
+        },
+        "whiteLabel": {
+          "title": "白書きとブランドマーケット",
+          "options": {
+            "1": "ブランドの可視性を実現するカスタム機械。",
+            "2": "企業とフランシステムのブランドマーケットの必要性。"
+          }
+        },
+        "maintenance": {
+          "title": "メンテナンスとサポート",
+          "options": {
+            "1": "メンテナンスとセットアップの完全なサポート。",
+            "2": "レンタルと収益共有のカスタムソリューション。"
+          }
+        }
+      }
+    },
+    "adminDashboard": {
+      "title": "詳細な管理パネル",
+      "features": {
+        "liveStockStatus": "ライブストックステータス",
+        "salesPrediction": "セールス予測",
+        "notificationAlerts": "通知アラート",
+        "maintenanceStatus": "メンテナンスステータス",
+        "accounting": "アカウント",
+        "plReports": "P&Lレポート",
+        "salesGraph": "セールスグラフ"
+      },
+      "subTitle": "パワーワガマなチャートとアナリティクスを利用して、データを視覚化します。",
+      "description": "ベンダービジネスに対して、アクションの可能性のあるインサイトを利用して、セールス、増長のトレンド、収益シェアをすぐに視覚化し、パフォーマンスを最大限に向上させ、スマートな決断を進めることができます。",
+      "cta": {
+        "label": "デモのミーティングを予定する"
+      },
+      "topSalesTable": {
+        "title": "トップセールステーブル - 3月、2024年",
+        "header": {
+          "id": "ID",
+          "name": "名前",
+          "category": "カテゴリ",
+          "unitsSold": "営業単位",
+          "pecentageGrowthInSales": "% 売上増加",
+          "percentageShareInProfit": "% 収益共有",
+          "profitMarginPercentage": "収益マージン (%)"
+        },
+        "rows": {
+          "1": {
+            "id": "1783",
+            "name": "コーラ",
+            "category": "飲料",
+            "unitsSold": "1,000",
+            "pecentageGrowthInSales": "10%",
+            "percentageShareInProfit": "10%",
+            "profitMarginPercentage": "10%"
+          },
+          "2": {
+            "id": "1744",
+            "name": "スニカーズ",
+            "category": "スナック",
+            "unitsSold": "2,000",
+            "pecentageGrowthInSales": "+20%",
+            "percentageShareInProfit": "20%",
+            "profitMarginPercentage": "20%"
+          },
+          "3": {
+            "id": "1745",
+            "name": "レイズ - 赤",
+            "category": "スナック",
+            "unitsSold": "3,000",
+            "pecentageGrowthInSales": "+30%",
+            "percentageShareInProfit": "30%",
+            "profitMarginPercentage": "30%"
+          },
+          "4": {
+            "id": "1097",
+            "name": "トロピカナ - オレンジ",
+            "category": "飲料",
+            "unitsSold": "4,000",
+            "pecentageGrowthInSales": "+40%",
+            "percentageShareInProfit": "40%",
+            "profitMarginPercentage": "40%"
+          },
+          "5": {
+            "id": "1746",
+            "name": "モンスタードリンク",
+            "category": "飲料",
+            "unitsSold": "5,000",
+            "pecentageGrowthInSales": "+50%",
+            "percentageShareInProfit": "50%",
+            "profitMarginPercentage": "50%"
+          }
+        }
+      },
+      "salesGraph": {
+        "title": "グラフの可視化",
+        "chart": {
+          "currency": "¥",
+          "xAxis": "日",
+          "yAxis": "万円",
+          "data": {
+            "1": {
+              "name": "月",
+              "value": "50",
+              "diff": "+32%"
+            },
+            "2": {
+              "name": "2月",
+              "value": "100",
+              "diff": "-32%"
+            },
+            "3": {
+              "name": "3月",
+              "value": "90",
+              "diff": "+32%"
+            },
+            "4": {
+              "name": "4月",
+              "value": "120",
+              "diff": "-32%"
+            },
+            "5": {
+              "name": "5月",
+              "value": "200",
+              "diff": "-32%"
+            },
+            "6": {
+              "name": "6月",
+              "value": "300",
+              "diff": "-32%"
+            },
+            "7": {
+              "name": "7月",
+              "value": "375",
+              "diff": "-32%"
+            }
+          }
+        }
+      },
+      "locationBasedSales": {
+        "title": "ロケーションベースの売上",
+        "chart": {
+          "data": {
+            "1": {
+              "name": "バンガロール",
+              "value": "31"
+            },
+            "2": {
+              "name": "チェンナイ",
+              "value": "23"
+            },
+            "3": {
+              "name": "ムンバイ",
+              "value": "36"
+            },
+            "4": {
+              "name": "プネット",
+              "value": "36"
+            },
+            "5": {
+              "name": "ヒデラバード",
+              "value": "8"
+            },
+            "6": {
+              "name": "コルカタ",
+              "value": "31"
+            }
+          }
+        }
+      }
+    },
+    "paymentServices": {
+      "label": "支払いゲートウェイ",
+      "title": "UPIとの統合された支払いサービス",
+      "description": "カスタマーは、クレジットカードやキャッシュのために、QRコードをスキャンするか、UPI IDを使用して購入を完了できます。",
+      "manyMore": "+ さらにいくつか"
+    },
+    "globalPresence": {
+      "title": "グローバルなプレゼンス",
+      "countries": {
+        "country-1": {
+          "title": "インド",
+          "label": "3 ロケーション"
+        },
+        "country-2": {
+          "title": "ジャパン",
+          "label": "340 ロケーション"
+        },
+        "country-3": {
+          "title": "ヴァージン",
+          "label": "14 ロケーション"
+        },
+        "country-4": {
+          "title": "ピンペン",
+          "label": "9 ロケーション"
+        },
+        "country-5": {
+          "title": "ユナイテッド",
+          "label": "7 ロケーション"
+        }
+      }
+    },
+    "trustedCompanies": {
+      "companies": {
+        "samsung": {
+          "title": "サムスン"
+        },
+        "apple": {
+          "title": "アップル"
+        },
+        "hp": {
+          "title": "ハップ・プライム"
+        },
+        "sony": {
+          "title": "ソニー"
+        },
+        "lg": {
+          "title": "ローグ"
+        },
+        "toshiba": {
+          "title": "トシバ"
+        },
+        "mitsubishi": {
+          "title": "ミツバシ"
+        },
+        "fujitsu": {
+          "title": "フジテック"
+        }
+      }
+    }
+  },
+  "about": {
+    "detail-1": {
+      "title": "私たちについて",
+      "description": "YONGは、インドのベンディングソリューションのワンストップショップです。20年以上の経験を持つ国内最古のベンディングマシンサプライヤーの一つとして、インドの大手企業やベンディングマシンオペレーターの第一選択肢であることを誇りに思っています。私たちの卓越性への取り組みは、高品質なマシンと優れたサービスとサポートに反映されています。",
+      "excellence": "20年以上の卓越性"
+    },
+    "detail-2": {
+      "title": "私たちの使命",
+      "description": "自動販売機業界および関連分野で最前線に立つこと。"
+    },
+    "detail-3": {
+      "title": "私たちのビジョン",
+      "description": "自動販売機業界および関連分野でトップになること。"
+    },
+    "detail-4": {
+      "statistic-1": {
+        "count": "10+",
+        "sub-heading": "成功した",
+        "heading": "年数"
+      },
+      "statistic-2": {
+        "count": "200+",
+        "sub-heading": "満足した",
+        "heading": "クライアント"
+      },
+      "statistic-3": {
+        "count": "50+",
+        "sub-heading": "世界中に",
+        "heading": "拠点"
+      },
+      "statistic-4": {
+        "count": "50,000+",
+        "sub-heading": "設置済み",
+        "heading": "機械"
+      }
+    },
+    "detail-5": {
+      "title": "私たちの専門知識",
+      "description": "15年以上の経験を持つ私たちは、信頼性の高い自動販売機、堅牢なソフトウェア、そして卓越したカスタマーサービスを提供することで評価を築いてきました。小規模企業から大企業まで、世界中のクライアントと提携し、成功を促進するカスタマイズされた自動販売ソリューションを創出してきました。"
+    },
+    "detail-6": {
+      "title": "独自の販売ポイント",
+      "point-1": "最新の自動販売機（屋内、屋外、リファービッシュ）。",
+      "point-2": "高度なIoT対応システムおよび分析ソフトウェア。",
+      "point-3": "カスタマイズ可能なホワイトラベルおよびブランディングサービス。",
+      "point-4": "持続可能性とエネルギー効率の高い技術への取り組み。"
+    },
+    "detail-7": {
+      "title": "コアバリュー",
+      "point-1": "誠実さ：正直さと透明性をもってビジネスを行います。",
+      "point-2": "革新：製品とサービスを向上させる新しい方法を常に模索しています。",
+      "point-3": "顧客中心主義：お客様は私たちの活動の中心です。",
+      "point-4": "持続可能性：私たちの運営において環境に優しい実践を重視しています。"
+    },
+    "detail-10": {
+      "title": "革新へのコミットメント",
+      "description": "Yong Enterprisesでは、製品に最先端の技術を統合することに専念しています。私たちのチームは業界のトレンドをリードし、最も先進的な自動販売ソリューションをクライアントに提供します。"
+    },
+    "detail-11": {
+      "title": "顧客へのフォーカス",
+      "description": "私たちはクライアントとの強い関係を築くことを信じています。顧客中心のアプローチにより、多くの成功事例が生まれました。以下は、満足したクライアントの声の一部です："
+    },
+    "detail-12": {
+      "feedback-1": {
+        "feedback": "当社のオフィスの自動販売機ニーズに対応するためにYongと提携しましたが、結果は素晴らしいものでした。IoT統合とカスタマイズされたソリューションにより、業務が効率化され、従業員はスナックや飲み物に素早く便利にアクセスできるようになりました。ぜひお勧めします！",
+        "client": {
+          "name": "ジェーン・D",
+          "designation": "オペレーションマネージャー",
+          "organization": "TechWorks Inc."
+        }
+      },
+      "feedback-2": {
+        "feedback": "Yongから再生された自動販売機を利用していますが、新品同様です！コスト削減は驚異的で、AmulやNandiniなどのFMCG企業との収益分配モデルは、収益を大幅に向上させました。",
+        "client": {
+          "name": "サラ・L",
+          "designation": "ストアマネージャー",
+          "organization": "Tokyo Trades"
+        }
+      },
+      "feedback-3": {
+        "feedback": "Yongが提供する法人向けの大量自動販売機ソリューションは、私たちの期待を超えました。ホワイトラベルサービスのおかげで、自社ブランドをシームレスに展開しながら、クライアントに高品質のサービスを提供できました。",
+        "client": {
+          "name": "アニル・M",
+          "designation": "CEO",
+          "organization": "Global Foods"
+        }
+      },
+      "feedback-4": {
+        "feedback": "Yongを際立たせているのは、顧客満足への献身です。同社の保守プランは包括的で信頼性があり、すべての機械をスムーズに稼働させ続けています。これほど卓越性に専念している会社は珍しいです。",
+        "client": {
+          "name": "エミリー・W",
+          "designation": "施設マネージャー",
+          "organization": "Horizon Corp."
+        }
+      },
+      "feedback-5": {
+        "feedback": "Yongのおかげで、自動販売機事業を始めるのはとても簡単でした。同社のガイダンス、一流の機械、透明性のあるレンタルプランのおかげで、手間なく始めることができました。すでに素晴らしい収益が出ています！",
+        "client": {
+          "name": "アーメド・K",
+          "designation": "CEO",
+          "organization": "Local First at Bengaluru"
+        }
+      }
+    }
+  },
+  "header": {
+    "links": {
+      "aboutUs": "私たちについて",
+      "yongConnect": "ヨング接続",
+      "support": "サポート",
+      "privacyPolicy": "プライバシーポリシー",
+      "termsOfService": "利用規約"
+    },
+    "cta": {
+      "schedule": "ミーティングを予定する"
+    }
+  },
+  "footer": {
+    "locales": {
+      "en": "English",
+      "jp": "日本語"
+    },
+    "copyright": "© 2025 ヨング接続. All rights reserved.",
+    "action": {
+      "getCatalog": "商品カタログを取得",
+      "emailAddress": "メールアドレス"
+    },
+    "links": {
+      "plans": "プラン",
+      "relatedServices": "関連サービス",
+      "products": "製品",
+      "globalPresence": "グローバルプレゼンス",
+      "yongConnect": "ヨング接続",
+      "support": "サポート",
+      "contact": "お問い合わせ",
+      "about": "私たちについて"
+    },
+    "offices": {
+      "trivandrum": {
+        "address": "Tc: 22/835, Mir-4, Mangalam Lane-1, Sasthamangalam P.O, トリバンドラム, ケララ州-695010",
+        "phone": "+91-471-2323232",
+        "email": "trivandrum@yongconnect.com"
+      },
+      "cochin": {
+        "address": "Michael Tower: 26/132-135, Civil Lane Road, Padamugal Junction, Thrikkakara, Thrikkakara North (Part), エルナクラム, ケララ州-682",
+        "phone": "+91-484-2323232",
+        "email": "cochin@yongconnect.com"
+      },
+      "malappuram": {
+        "address": "17/397, Industrial Estate, Doty Road, Pandikkad P.O, マラッパラム, ケララ州 676521",
+        "phone": "+91-483-2323232",
+        "email": "malappuram@yongconnect.com"
+      }
+    }
+  },
+  "products": {
+    "title": "製品",
+    "description": "私たちは、あなたのニーズに合わせた幅広いプロダクトを提供しています。",
+    "conditionWarning": "*条件に合わせてください、製品の詳細をご読みください。",
+    "commonFeatures": {
+      "iotEnabled": {
+        "title": "IoT有効化",
+        "description": "インテーブルと売上の追跡をクラウドベースのシステムによって、リアルタイムで実行されます。"
+      },
+      "tftScreen": {
+        "title": "ISOに該当するTFTタッチスクリーン",
+        "description": "プロモーションの簡単なインターフェイスを提供し、商品選択、広告、支払いなどのオンスクリーンです。"
+      }
+    },
+    "products": {
+      "INF4B": {
+        "title": "Infinity INF4B 冷蔵ユニット",
+        "shortTitle": "INF4B ユニット",
+        "description": "屋内使用の商業用冷蔵ユニット。",
+        "mrp": "N/A",
+        "price": "N/A",
+        "cta": {
+          "label": "詳細情報を探す"
+        },
+        "specs": {
+          "model": {
+            "title": "モデル",
+            "description": "INF4B"
+          },
+          "dimensions": {
+            "title": "寸法",
+            "description": "N/A"
+          },
+          "power": {
+            "title": "電力",
+            "description": "230V AC, 50 Hz, 1 フェーズ, 2.3 アンペア"
+          },
+          "weight": {
+            "title": "重量",
+            "description": "N/A"
+          },
+          "refrigerant": {
+            "title": "冷媒",
+            "description": "R134a"
+          }
+        },
+        "features": {
+          "capacity": {
+            "title": "容量",
+            "description": "18製品選択で最大300本のボトル/缶"
+          },
+          "touchScreen": {
+            "title": "タッチスクリーン",
+            "description": "タッチスクリーンなし"
+          },
+          "iotEnabled": {
+            "title": "IoT対応",
+            "description": "テレメトリ準備とリモート監視のためのMDB/DEXポート"
+          },
+          "payment": {
+            "title": "支払いゲートウェイ",
+            "description": "UPI、現金、カード、Paytm、Google Pay、PhonePeなど"
+          },
+          "efficiency": {
+            "title": "エネルギー効率設計",
+            "description": "2.3アンペアの電力消費で信頼性のある冷却を実現"
+          },
+          "customization": {
+            "title": "カスタマイズ可能",
+            "description": "企業および小売のニーズに合わせたブランディングオプション"
+          },
+          "durable": {
+            "title": "耐久性",
+            "description": "錆びない粉体塗装のオールスチール構造、盗難防止: 強化キャビネット、Tハンドルロック"
+          },
+          "idealFor": {
+            "title": "理想的な用途",
+            "description": "大容量と信頼性のため、オフィス、学校、病院などの高トラフィックの場所に最適"
+          }
+        },
+        "keyFeatures": {
+          "efficiency": {
+            "title": "効率的な運用",
+            "description": "2.3アンペアの電力消費で信頼性のある冷却を実現"
+          },
+          "packets": {
+            "title": "18製品選択で最大300本のボトル/缶",
+            "description": "さまざまな製品サイズに対応する調整可能な棚"
+          },
+          "payment": {
+            "title": "UPI/現金/カードで支払い",
+            "description": "Google Pay、PhonePe、Paytmなどのお気に入りのアプリを使用"
+          }
+        },
+        "featureDescriptions": {
+          "iotEnabled": {
+            "label": "IoT対応",
+            "description": "テレメトリ準備とリモート監視のためのMDB/DEXポート"
+          },
+          "touchScreen": {
+            "label": "タッチスクリーン",
+            "description": "タッチスクリーンなし"
+          },
+          "payment": {
+            "label": "支払い方法",
+            "description": "UPI、現金、カード、Paytm、Google Pay、PhonePeなど"
+          },
+          "efficiency": {
+            "label": "効率",
+            "description": "2.3アンペアの電力消費で信頼性のある冷却を実現"
+          },
+          "warranty": {
+            "label": "保証",
+            "description": "10年間のサービスと修理"
+          }
+        }
+      },
+      "INF4C": {
+        "title": "Seaga INF4C コンボ自動販売機",
+        "shortTitle": "INF4C コンボ",
+        "description": "屋内商業用のMDB/DEX機能を備えたコンパクトな飲料およびスナック自動販売機。",
+        "mrp": "N/A",
+        "price": "N/A",
+        "cta": {
+          "label": "詳細情報を探す"
+        },
+        "specs": {
+          "model": {
+            "title": "モデル",
+            "description": "INF4C"
+          },
+          "dimensions": {
+            "title": "寸法",
+            "description": "72\"H x 39\"W x 37\"D (9.75平方フィートの床面積)"
+          },
+          "power": {
+            "title": "電力",
+            "description": "115V AC, 60Hz (冷蔵モデルの動作電流4.4アンペア)"
+          },
+          "weight": {
+            "title": "重量",
+            "description": "N/A"
+          },
+          "refrigerant": {
+            "title": "冷媒",
+            "description": "シクロペンタン断熱材（エコフレンドリー）"
+          }
+        },
+        "features": {
+          "capacity": {
+            "title": "容量",
+            "description": "製品の柔軟性のための調整可能な棚を備えた飲料とスナックのコンボ販売"
+          },
+          "touchScreen": {
+            "title": "タッチスクリーン",
+            "description": "スクロール価格表示（タッチスクリーンなし）"
+          },
+          "iotEnabled": {
+            "title": "IoT対応",
+            "description": "在庫管理とリモート監視のためのMDB/DEX互換"
+          },
+          "payment": {
+            "title": "支払いゲートウェイ",
+            "description": "MDB/DEXを介したキャッシュレス支払いサポート（特定の方法は詳細なし）"
+          },
+          "efficiency": {
+            "title": "エネルギー効率設計",
+            "description": "LED照明とタイムドベンディングを備えた高効率冷蔵"
+          },
+          "customization": {
+            "title": "カスタマイズ可能",
+            "description": "多様な製品のための高さ調整可能な棚、デュアルコイル、トレイ構成"
+          },
+          "durable": {
+            "title": "耐久性",
+            "description": "インターロックドア構造、Enduraモーター（200万回以上の販売テスト済み）、二重ガラス"
+          },
+          "idealFor": {
+            "title": "理想的な用途",
+            "description": "限られたスペースのオフィス、小売スペース、高トラフィックエリア"
+          }
+        },
+        "keyFeatures": {
+          "efficiency": {
+            "title": "効率的な運用",
+            "description": "エネルギー使用を削減するためのサイドイン冷却デッキとシクロペンタン断熱材"
+          },
+          "packets": {
+            "title": "製品の柔軟性",
+            "description": "スナック/飲料用のデュアルコイルと調整可能なトレイ"
+          },
+          "payment": {
+            "title": "支払いゲートウェイ",
+            "description": "米国ADA基準および屋内環境要件を満たす"
+          }
+        },
+        "featureDescriptions": {
+          "iotEnabled": {
+            "label": "IoT対応",
+            "description": "テレメトリと報告のためのMDB/DEXポート"
+          },
+          "payment": {
+            "label": "支払いゲートウェイ",
+            "description": "UPI、現金、カード、Paytm、Google Pay、PhonePeなど"
+          },
+          "touchScreen": {
+            "label": "ディスプレイ",
+            "description": "LCDテキストディスプレイ（非タッチ）"
+          },
+          "warranty": {
+            "label": "保証",
+            "description": "N/A"
+          },
+          "efficiency": {
+            "label": "効率",
+            "description": "115V ACで4.4アンペアで動作（冷蔵モード）し、サイドイン冷却デッキとシクロペンタン断熱材を備え、従来のシステムと比較して電力消費を削減"
+          }
+        }
+      },
+      "SEC3530": {
+        "title": "G-Snack デザインライン SC6 自動販売機",
+        "shortTitle": "SEC3530 ユニット",
+        "description": "複数の安全およびコンプライアンス認証を備えた屋内使用の商業用冷蔵ユニット。",
+        "mrp": "N/A",
+        "price": "N/A",
+        "cta": {
+          "label": "詳細情報を探す"
+        },
+        "specs": {
+          "model": {
+            "title": "モデル",
+            "description": "SEC3530"
+          },
+          "dimensions": {
+            "title": "寸法",
+            "description": "1830mm H x 830mm W x 845mm D"
+          },
+          "power": {
+            "title": "電力",
+            "description": "230/240V AC, 50/60Hz, 最大消費: 350W"
+          },
+          "weight": {
+            "title": "重量",
+            "description": "275 kg"
+          },
+          "refrigerant": {
+            "title": "冷媒",
+            "description": "HCD冷却ユニット"
+          }
+        },
+        "features": {
+          "capacity": {
+            "title": "容量",
+            "description": "標準6棚（最大7棚）で最大42選択"
+          },
+          "touchScreen": {
+            "title": "タッチスクリーン",
+            "description": "指定なし"
+          },
+          "iotEnabled": {
+            "title": "IoT対応",
+            "description": "在庫管理とリモート監視のためのExecutive/MDBプロトコルをサポート"
+          },
+          "payment": {
+            "title": "支払いゲートウェイ",
+            "description": "UPI、現金、カード、Paytm、Google Pay、PhonePeなど"
+          },
+          "efficiency": {
+            "title": "エネルギー効率設計",
+            "description": "エネルギー消費: 629 kWh/年 (Cat. 2), 798 kWh/年 (Cat. 3), 793 kWh/年 (Cat. 4)"
+          },
+          "customization": {
+            "title": "カスタマイズ可能",
+            "description": "Speedy Lift、eラベリング、回転＆ベルトシステム、サンドイッチ/バゲットキット、モーター駆動ロックデリバリーアイレット、カスタマイズされたキャビネットカラーを含むオプション"
+          },
+          "durable": {
+            "title": "耐久性",
+            "description": "メインボディと支払いコラムを分離する分割機能で狭い通路を通過するように設計"
+          },
+          "idealFor": {
+            "title": "理想的な用途",
+            "description": "高級オフィスや高級環境"
+          }
+        },
+        "keyFeatures": {
+          "efficiency": {
+            "title": "効率的な運用",
+            "description": "内部温度範囲+2°Cから+18°Cの電子冷却システム制御"
+          },
+          "packets": {
+            "title": "製品の柔軟性",
+            "description": "さまざまなサイズと形状のF&B製品および追加販売商品を収容"
+          },
+          "payment": {
+            "title": "支払いゲートウェイ",
+            "description": "UPI、現金、カード、Paytm、Google Pay、PhonePeなど"
+          }
+        },
+        "featureDescriptions": {
+          "iotEnabled": {
+            "label": "IoT対応",
+            "description": "Executive/MDBプロトコルを介したテレメトリと報告をサポート"
+          },
+          "payment": {
+            "label": "支払いゲートウェイ",
+            "description": "Executive/MDBプロトコルをサポートするさまざまな支払いシステムと互換性あり"
+          },
+          "touchScreen": {
+            "label": "ディスプレイ",
+            "description": "指定なし"
+          },
+          "warranty": {
+            "label": "保証",
+            "description": "指定なし"
+          },
+          "efficiency": {
+            "label": "効率",
+            "description": "エネルギー消費: 629 kWh/年 (Cat. 2), 798 kWh/年 (Cat. 3), 793 kWh/年 (Cat. 4)"
+          }
+        }
+      }
+    }
+  },
+  "support": {
+    "title": "サポート",
+    "subTitle": "お困りの際は、お気軽にお問い合わせください。",
+    "cta": "サポートに連絡",
+    "form": {
+      "title": "サポートに連絡",
+      "submit": "送信",
+      "submitting": "送信中...",
+      "success": {
+        "title": "送信完了！",
+        "message": "できるだけ早くご連絡いたします。",
+        "close": "閉じる"
+      },
+      "fields": {
+        "name": {
+          "label": "お名前",
+          "placeholder": "お名前を入力してください"
+        },
+        "email": {
+          "label": "メールアドレス",
+          "placeholder": "メールアドレスを入力してください"
+        },
+        "phone": {
+          "label": "電話番号",
+          "placeholder": "電話番号を入力してください"
+        },
+        "subject": {
+          "label": "件名",
+          "placeholder": "件名を選択してください",
+          "options": {
+            "technical": "技術サポート",
+            "billing": "請求サポート",
+            "general": "一般的なお問い合わせ"
+          }
+        },
+        "message": {
+          "label": "メッセージ",
+          "placeholder": "どのようにお手伝いできますか？"
+        }
+      }
+    }
+  },
+  "meetingForm": {
+    "title": "ミーティングの予約",
+    "description": "以下のフォームに記入して、チームとのミーティングを予約してください。",
+    "email": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力",
+    "phone": "電話番号",
+    "phonePlaceholder": "電話番号を入力",
+    "timeSlot": "時間枠を選択",
+    "timeSlotPlaceholder": "都合の良い時間を選択",
+    "content": "追加情報",
+    "contentPlaceholder": "ご要件をお知らせください",
+    "submit": "ミーティングを予約",
+    "submitting": "予約中...",
+    "success": {
+      "title": "ミーティングリクエスト送信完了！",
+      "message": "メールでミーティングの詳細とカレンダー招待状をご確認ください。",
+      "close": "閉じる"
+    }
+  },
+  "contactSalesForm": {
+    "title": "営業担当者に連絡",
+    "name": "お名前",
+    "namePlaceholder": "お名前を入力してください",
+    "email": "メールアドレス",
+    "emailPlaceholder": "メールアドレスを入力してください",
+    "phone": "電話番号",
+    "phonePlaceholder": "電話番号を入力してください",
+    "submit": "送信",
+    "submitting": "送信中...",
+    "success": {
+      "title": "送信完了！",
+      "message": "営業担当者から折り返しご連絡いたします。",
+      "close": "閉じる"
+    }
+  }
+}
