@@ -550,7 +550,16 @@
       "yongConnect": "ヨング接続",
       "support": "サポート",
       "privacyPolicy": "プライバシーポリシー",
-      "termsOfService": "利用規約"
+      "termsOfService": "利用規約",
+      "projects": "Projects",
+      "projects&products": "Projects & Products",
+      "desalination": "Desalination Plants",
+      "composting": "Composting machine",
+      "toshin": "Toshin water meter",
+      "desalination_projects": "Desalination Plant Projects",
+      "composting_projects": "Composting machine Projects",
+      "toshin_projects": "Toshin water meter Projects",
+      "vendingmachine_products": "Vending Machine Products"
     },
     "cta": {
       "schedule": "ミーティングを予定する"
@@ -992,6 +1001,151 @@
       "title": "送信完了！",
       "message": "営業担当者から折り返しご連絡いたします。",
       "close": "閉じる"
+    }
+  },
+  "projects&products": {
+    "desalination": {
+      "title": "Desalination Project",
+      "description": "Converting seawater into purified drinking water using advanced filtration systems.",
+      "introTitle": "Seawater Desalination System",
+      "introDesc": "Our desalination systems are designed for efficiency, sustainability, and scalability.",
+      "categories": {
+        "c1": {
+          "id": "SO-FI-RX",
+          "title": "SO-FI-RX",
+          "image": "/projects&products/desalination/SO-FI-RX.png",
+          "planImage": "/projects&products/desalination/SO-FI-RX PLAN.png",
+          "subcategories": {
+            "s1": "SO-FI-250RX",
+            "s2": "SO-FI-300RX",
+            "s3": "SO-FI-500RX",
+            "s4": "SO-FI-750RX",
+            "s5": "SO-FI-1000RX",
+            "s6": "SO-FI-1500RX",
+            "s7": "SO-FI-2000RX"
+          },
+          "points": {
+            "p1": "High-efficiency filtration system",
+            "p2": "Low energy consumption",
+            "p3": "Compact and scalable design",
+            "p4": "Ideal for coastal applications"
+          }
+        },
+        "c2": {
+          "id": "SO-KQ-TR",
+          "title": "SO-KQ-TR",
+          "image": "/projects&products/desalination/SO-KQ-TR.png",
+          "planImage": "/projects&products/desalination/SO-KQ-TR PLAN.png",
+          "subcategories": {
+            "s1": "SO-KQ-65TR",
+            "s2": "SO-KQ-110TR",
+            "s3": "SO-KQ-130TR",
+            "s4": "SO-KQ-220TR"
+          },
+          "points": {
+            "p1": "Advanced reverse osmosis technology",
+            "p2": "Smart monitoring system",
+            "p3": "High output capacity",
+            "p4": "Durable industrial-grade materials"
+          }
+        },
+        "c3": {
+          "id": "SO-FDI-RX",
+          "title": "SO-FDI-RX",
+          "image": "/projects&products/desalination/SO-FDI-RX.png",
+          "planImage": "/projects&products/desalination/SO-FDI-RX PLAN.png",
+          "subcategories": {
+            "s1": "SO-FDI-50TR",
+            "s2": "SO-FDI-100TR",
+            "s3": "SO-FDI-200TR",
+            "s4": "SO-FDI-300TR",
+            "s5": "SO-FDI-500TR",
+            "s6": "SO-FDI-750TR",
+            "s7": "SO-FDI-1000TR",
+            "s8": "SO-FDI-1500TR",
+            "s9": "SO-FDI-2000TR"
+          },
+          "points": {
+            "p1": "Eco-friendly desalination process",
+            "p2": "Solar-compatible system",
+            "p3": "AI-based monitoring",
+            "p4": "Minimal maintenance cost"
+          }
+        }
+      }
+    },
+    "composting": {
+      "title": "Composting Machines",
+      "description": "Eco-friendly waste management solutions",
+      "section1": "Our Solution",
+      "section1Desc": "Convert organic waste into useful compost efficiently."
+    },
+    "toshin": {
+      "title": "Toshin Water Meter",
+      "description": "Smart and accurate water measurement systems",
+      "section1": "Our Product",
+      "section1Desc": "High precision water meters for modern infrastructure."
+    },
+    "vendingmachine": {
+      "title": "Automatic Snacks & Beverages Vending Machine",
+      "description": "Smart, automated vending solution providing snacks and beverages with convenience, hygiene, and efficiency.",
+      "about": {
+        "title": "About Us",
+        "desc": "YONG is a one-stop shop for vending solutions in India with over 10 years of experience. We provide high-quality vending machines with excellent service and support. Our vending solutions offer a quick and convenient way for people to grab snacks and beverages on the go, improving productivity and staff satisfaction."
+      },
+      "whyUs": {
+        "title": "Why Choose Us",
+        "points": {
+          "p1": "Best quality machines in the market",
+          "p2": "Latest types of vending machines",
+          "p3": "Highly experienced technical team",
+          "p4": "Pan India service support",
+          "p5": "24/7 customer support",
+          "p6": "Effective customer service and operations",
+          "p7": "Branding opportunities at premium locations",
+          "p8": "Customized vending machines for specific projects"
+        }
+      },
+      "vision": {
+        "title": "Vision",
+        "desc": "To be the foremost in the vending machine industry and allied categories."
+      },
+      "mission": {
+        "title": "Mission",
+        "desc": "Making everyday convenience available – Easier, Smarter, Safer! Staying consumer-centric, data-led, and values-based in everything we do."
+      },
+      "features": {
+        "title": "Features",
+        "desc": "Our vending machines are equipped with advanced cashless payment systems and smart automation. The plug-and-play payment device supports UPI and other digital payments with secure transactions. The system provides a user-friendly interface, instant refunds on failure, and ensures hygienic, touch-free dispensing. Designed for Indian market needs, it offers reliability, efficiency, and minimal operating costs."
+      },
+      "tray": {
+        "title": "Tray Structure",
+        "desc": "The vending machine is designed with a total of 6 trays for efficient product organization and dispensing.",
+        "details": {
+          "d1": "3 trays for snacks (each tray has 4 spirals, each spiral holds up to 12 snack items)",
+          "d2": "1 tray for chocolates & biscuits (8 spirals, each spiral holds up to 18 chocolates or 10 biscuits)",
+          "d3": "2 trays for beverages (7 spirals, each spiral holds up to 7 beverage items)"
+        },
+        "note": "Tray configuration can be customized based on customer requirements."
+      },
+      "customers": {
+        "title": "Satisfied Customers",
+        "list": {
+          "c1": "IBS Software Services Pvt Ltd",
+          "c2": "Envestnet",
+          "c3": "Guidehouse India Pvt Ltd",
+          "c4": "Finastra",
+          "c5": "Innovature Labs Pvt Ltd",
+          "c6": "Manappuram Finance Ltd",
+          "c7": "Symantec",
+          "c8": "Cognizant Technology Solutions",
+          "c9": "UST Global",
+          "c10": "Brennan IT India Pvt Ltd",
+          "c11": "Acsia Technologies Pvt Ltd",
+          "c12": "Aspire Systems",
+          "c13": "EY (Ernst & Young)"
+        }
+      }
     }
   }
 }
