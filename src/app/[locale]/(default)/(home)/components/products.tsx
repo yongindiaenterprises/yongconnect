@@ -105,7 +105,7 @@ const Products = () => {
                           </div>
                           <Button className="mt-4">
                             {t(`products.${product}.cta.label`)}
-                          </Button>
+                          </Button> 
                         </div>
                       </div>
                     </CardContent>
