@@ -1005,70 +1005,70 @@
       "description": "Converting seawater into purified drinking water using advanced filtration systems.",
       "introTitle": "Seawater Desalination System",
       "introDesc": "Our desalination systems are designed for efficiency, sustainability, and scalability.",
-      "categories": [
-        {
+      "categories": {
+        "c1": {
           "id": "SO-FI-RX",
           "title": "SO-FI-RX",
           "image": "/projects&products/desalination/SO-FI-RX.png",
           "planImage": "/projects&products/desalination/SO-FI-RX PLAN.png",
-          "subcategories": [
-            "SO-FI-250RX",
-            "SO-FI-300RX",
-            "SO-FI-500RX",
-            "SO-FI-750RX",
-            "SO-FI-1000RX",
-            "SO-FI-1500RX",
-            "SO-FI-2000RX"
-          ],
-          "points": [
-            "High-efficiency filtration system",
-            "Low energy consumption",
-            "Compact and scalable design",
-            "Ideal for coastal applications"
-          ]
+          "subcategories": {
+            "s1": "SO-FI-250RX",
+            "s2": "SO-FI-300RX",
+            "s3": "SO-FI-500RX",
+            "s4": "SO-FI-750RX",
+            "s5": "SO-FI-1000RX",
+            "s6": "SO-FI-1500RX",
+            "s7": "SO-FI-2000RX"
+          },
+          "points": {
+            "p1": "High-efficiency filtration system",
+            "p2": "Low energy consumption",
+            "p3": "Compact and scalable design",
+            "p4": "Ideal for coastal applications"
+          }
         },
-        {
+        "c2": {
           "id": "SO-KQ-TR",
           "title": "SO-KQ-TR",
           "image": "/projects&products/desalination/SO-KQ-TR.png",
           "planImage": "/projects&products/desalination/SO-KQ-TR PLAN.png",
-          "subcategories": [
-            "SO-KQ-65TR",
-            "SO-KQ-110TR",
-            "SO-KQ-130TR",
-            "SO-KQ-220TR"
-          ],
-          "points": [
-            "Advanced reverse osmosis technology",
-            "Smart monitoring system",
-            "High output capacity",
-            "Durable industrial-grade materials"
-          ]
+          "subcategories": {
+            "s1": "SO-KQ-65TR",
+            "s2": "SO-KQ-110TR",
+            "s3": "SO-KQ-130TR",
+            "s4": "SO-KQ-220TR"
+          },
+          "points": {
+            "p1": "Advanced reverse osmosis technology",
+            "p2": "Smart monitoring system",
+            "p3": "High output capacity",
+            "p4": "Durable industrial-grade materials"
+          }
         },
-        {
+        "c3": {
           "id": "SO-FDI-RX",
           "title": "SO-FDI-RX",
           "image": "/projects&products/desalination/SO-FDI-RX.png",
           "planImage": "/projects&products/desalination/SO-FDI-RX PLAN.png",
-          "subcategories": [
-            "SO-FDI-50TR",
-            "SO-FDI-100TR",
-            "SO-FDI-200TR",
-            "SO-FDI-300TR",
-            "SO-FDI-500TR",
-            "SO-FDI-750TR",
-            "SO-FDI-1000TR",
-            "SO-FDI-1500TR",
-            "SO-FDI-2000TR"
-          ],
-          "points": [
-            "Eco-friendly desalination process",
-            "Solar-compatible system",
-            "AI-based monitoring",
-            "Minimal maintenance cost"
-          ]
+          "subcategories": {
+            "s1": "SO-FDI-50TR",
+            "s2": "SO-FDI-100TR",
+            "s3": "SO-FDI-200TR",
+            "s4": "SO-FDI-300TR",
+            "s5": "SO-FDI-500TR",
+            "s6": "SO-FDI-750TR",
+            "s7": "SO-FDI-1000TR",
+            "s8": "SO-FDI-1500TR",
+            "s9": "SO-FDI-2000TR"
+          },
+          "points": {
+            "p1": "Eco-friendly desalination process",
+            "p2": "Solar-compatible system",
+            "p3": "AI-based monitoring",
+            "p4": "Minimal maintenance cost"
+          }
         }
-      ]
+      }
     },
     "composting": {
       "title": "Composting Machines",
@@ -1091,16 +1091,16 @@
       },
       "whyUs": {
         "title": "Why Choose Us",
-        "points": [
-          "Best quality machines in the market",
-          "Latest types of vending machines",
-          "Highly experienced technical team",
-          "Pan India service support",
-          "24/7 customer support",
-          "Effective customer service and operations",
-          "Branding opportunities at premium locations",
-          "Customized vending machines for specific projects"
-        ]
+        "points": {
+          "p1": "Best quality machines in the market",
+          "p2": "Latest types of vending machines",
+          "p3": "Highly experienced technical team",
+          "p4": "Pan India service support",
+          "p5": "24/7 customer support",
+          "p6": "Effective customer service and operations",
+          "p7": "Branding opportunities at premium locations",
+          "p8": "Customized vending machines for specific projects"
+        }
       },
       "vision": {
         "title": "Vision",
@@ -1117,30 +1117,30 @@
       "tray": {
         "title": "Tray Structure",
         "desc": "The vending machine is designed with a total of 6 trays for efficient product organization and dispensing.",
-        "details": [
-          "3 trays for snacks (each tray has 4 spirals, each spiral holds up to 12 snack items)",
-          "1 tray for chocolates & biscuits (8 spirals, each spiral holds up to 18 chocolates or 10 biscuits)",
-          "2 trays for beverages (7 spirals, each spiral holds up to 7 beverage items)"
-        ],
+        "details": {
+          "d1": "3 trays for snacks (each tray has 4 spirals, each spiral holds up to 12 snack items)",
+          "d2": "1 tray for chocolates & biscuits (8 spirals, each spiral holds up to 18 chocolates or 10 biscuits)",
+          "d3": "2 trays for beverages (7 spirals, each spiral holds up to 7 beverage items)"
+        },
         "note": "Tray configuration can be customized based on customer requirements."
       },
       "customers": {
         "title": "Satisfied Customers",
-        "list": [
-          "IBS Software Services Pvt Ltd",
-          "Envestnet",
-          "Guidehouse India Pvt Ltd",
-          "Finastra",
-          "Innovature Labs Pvt Ltd",
-          "Manappuram Finance Ltd",
-          "Symantec",
-          "Cognizant Technology Solutions",
-          "UST Global",
-          "Brennan IT India Pvt Ltd",
-          "Acsia Technologies Pvt Ltd",
-          "Aspire Systems",
-          "EY (Ernst & Young)"
-        ]
+        "list": {
+          "c1": "IBS Software Services Pvt Ltd",
+          "c2": "Envestnet",
+          "c3": "Guidehouse India Pvt Ltd",
+          "c4": "Finastra",
+          "c5": "Innovature Labs Pvt Ltd",
+          "c6": "Manappuram Finance Ltd",
+          "c7": "Symantec",
+          "c8": "Cognizant Technology Solutions",
+          "c9": "UST Global",
+          "c10": "Brennan IT India Pvt Ltd",
+          "c11": "Acsia Technologies Pvt Ltd",
+          "c12": "Aspire Systems",
+          "c13": "EY (Ernst & Young)"
+        }
       }
     }
   }

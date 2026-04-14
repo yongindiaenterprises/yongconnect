@@ -14,6 +14,18 @@ export default async function VendingMachinePage({
     namespace: "projects&products",
   });
 
+  const whyUs = Object.values(
+  t.raw("vendingmachine.whyUs.points" as any) || {}
+) as string[];
+
+const trayDetails = Object.values(
+  t.raw("vendingmachine.tray.details" as any) || {}
+) as string[];
+
+const customers = Object.values(
+  t.raw("vendingmachine.customers.list" as any) || {}
+) as string[];
+
   return (
     <>
       {/* 🔷 HERO */}
@@ -57,14 +69,11 @@ export default async function VendingMachinePage({
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            {t.raw("vendingmachine.whyUs.points").map((item: string, i: number) => (
-              <div
-                key={i}
-                className="p-6 rounded-xl bg-white/10 text-white"
-              >
-                ✅ {item}
-              </div>
-            ))}
+            {whyUs.map((item, i) => (
+  <div key={i} className="p-6 rounded-xl bg-white/10 text-white">
+    ✅ {item}
+  </div>
+))}
           </div>
         </div>
       </section>
@@ -118,11 +127,9 @@ export default async function VendingMachinePage({
             </p>
 
             <ul className="space-y-2 text-white/70 mb-4">
-              {t.raw("vendingmachine.tray.details").map(
-                (item: string, i: number) => (
-                  <li key={i}>✔ {item}</li>
-                )
-              )}
+              {trayDetails.map((item, i) => (
+  <li key={i}>✔ {item}</li>
+))}
             </ul>
 
             <p className="text-yellow-400 text-sm">
@@ -148,17 +155,12 @@ export default async function VendingMachinePage({
           </h2>
 
           <div className="grid md:grid-cols-3 gap-6">
-            {t.raw("vendingmachine.customers.list").map(
-              (item: string, i: number) => (
-                <div
-                  key={i}
-                  className="p-6 bg-white/10 rounded-xl text-white"
-                >
-                  ⭐ {item}
-                </div>
-              )
-            )}
-          </div>
+  {customers.map((item, i) => (
+    <div key={i} className="p-6 bg-white/10 rounded-xl text-white">
+      ⭐ {item}
+    </div>
+  ))}
+</div>
         </div>
       </section>
     </>
