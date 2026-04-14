@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from 'next/image';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 export default async function VendingMachinePage({
   params,
@@ -11,38 +11,38 @@ export default async function VendingMachinePage({
 
   const t = await getTranslations({
     locale,
-    namespace: "projects&products",
+    namespace: 'projects&products',
   });
 
   const whyUs = Object.values(
-  t.raw("vendingmachine.whyUs.points" as any) || {}
-) as string[];
+    t.raw('vendingmachine.whyUs.points' as any) || {},
+  ) as string[];
 
-const trayDetails = Object.values(
-  t.raw("vendingmachine.tray.details" as any) || {}
-) as string[];
+  const trayDetails = Object.values(
+    t.raw('vendingmachine.tray.details' as any) || {},
+  ) as string[];
 
-const customers = Object.values(
-  t.raw("vendingmachine.customers.list" as any) || {}
-) as string[];
+  const customers = Object.values(
+    t.raw('vendingmachine.customers.list' as any) || {},
+  ) as string[];
 
   return (
     <>
       {/* 🔷 HERO */}
-      <section className="mt-16 bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl mx-8 rounded-lg py-20">
-        <div className="max-w-7xl mx-auto px-6 text-center text-white">
-          <h1 className="text-4xl md:text-6xl font-bold">
-            {t("vendingmachine.title")}
+      <section className="mx-8 mt-16 rounded-lg border border-white/10 bg-white/5 py-20 shadow-xl backdrop-blur-lg">
+        <div className="mx-auto max-w-7xl px-6 text-center text-white">
+          <h1 className="text-4xl font-bold md:text-6xl">
+            {t('vendingmachine.title')}
           </h1>
-          <p className="mt-4 text-white/80 max-w-2xl mx-auto">
-            {t("vendingmachine.description")}
+          <p className="mx-auto mt-4 max-w-2xl text-white/80">
+            {t('vendingmachine.description')}
           </p>
         </div>
       </section>
 
       {/* 🔷 ABOUT */}
-      <section className="py-16 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <section className="px-6 py-16">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
           <Image
             src="/projects&products/vending_machine/vending-machine.png"
             alt="Snack Vending Machine"
@@ -51,89 +51,83 @@ const customers = Object.values(
             className="rounded-xl"
           />
           <div>
-            <h2 className="text-3xl font-semibold text-white mb-4">
-              {t("vendingmachine.about.title")}
+            <h2 className="mb-4 text-3xl font-semibold text-white">
+              {t('vendingmachine.about.title')}
             </h2>
-            <p className="text-white/70">
-              {t("vendingmachine.about.desc")}
-            </p>
+            <p className="text-white/70">{t('vendingmachine.about.desc')}</p>
           </div>
         </div>
       </section>
 
       {/* 🔷 WHY US */}
-      <section className="py-16 px-6 bg-white/5">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold text-white mb-8">
-            {t("vendingmachine.whyUs.title")}
+      <section className="bg-white/5 px-6 py-16">
+        <div className="mx-auto max-w-6xl text-center">
+          <h2 className="mb-8 text-3xl font-semibold text-white">
+            {t('vendingmachine.whyUs.title')}
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-6">
+          <div className="grid gap-6 md:grid-cols-3">
             {whyUs.map((item, i) => (
-  <div key={i} className="p-6 rounded-xl bg-white/10 text-white">
-    ✅ {item}
-  </div>
-))}
+              <div key={i} className="rounded-xl bg-white/10 p-6 text-white">
+                ✅ {item}
+              </div>
+            ))}
           </div>
         </div>
       </section>
 
       {/* 🔷 VISION & MISSION */}
-      <section className="py-16 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-8">
-          <div className="bg-white/5 p-6 rounded-xl">
-            <h3 className="text-2xl font-semibold text-white mb-3">
-              {t("vendingmachine.vision.title")}
+      <section className="px-6 py-16">
+        <div className="mx-auto grid max-w-6xl gap-8 md:grid-cols-2">
+          <div className="rounded-xl bg-white/5 p-6">
+            <h3 className="mb-3 text-2xl font-semibold text-white">
+              {t('vendingmachine.vision.title')}
             </h3>
-            <p className="text-white/70">
-              {t("vendingmachine.vision.desc")}
-            </p>
+            <p className="text-white/70">{t('vendingmachine.vision.desc')}</p>
           </div>
 
-          <div className="bg-white/5 p-6 rounded-xl">
-            <h3 className="text-2xl font-semibold text-white mb-3">
-              {t("vendingmachine.mission.title")}
+          <div className="rounded-xl bg-white/5 p-6">
+            <h3 className="mb-3 text-2xl font-semibold text-white">
+              {t('vendingmachine.mission.title')}
             </h3>
-            <p className="text-white/70">
-              {t("vendingmachine.mission.desc")}
-            </p>
+            <p className="text-white/70">{t('vendingmachine.mission.desc')}</p>
           </div>
         </div>
       </section>
 
       {/* 🔷 FEATURES */}
-      <section className="py-16 px-6 bg-white/5">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold text-white mb-6">
-            {t("vendingmachine.features.title")}
+      <section className="bg-white/5 px-6 py-16">
+        <div className="mx-auto max-w-4xl text-center">
+          <h2 className="mb-6 text-3xl font-semibold text-white">
+            {t('vendingmachine.features.title')}
           </h2>
 
-          <p className="text-white/70 leading-relaxed">
-            {t("vendingmachine.features.desc")}
+          <p className="leading-relaxed text-white/70">
+            {t('vendingmachine.features.desc')}
           </p>
         </div>
       </section>
 
       {/* 🔷 TRAY STRUCTURE */}
-      <section className="py-16 px-6">
-        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+      <section className="px-6 py-16">
+        <div className="mx-auto grid max-w-6xl items-center gap-10 md:grid-cols-2">
           <div>
-            <h2 className="text-3xl font-semibold text-white mb-4">
-              {t("vendingmachine.tray.title")}
+            <h2 className="mb-4 text-3xl font-semibold text-white">
+              {t('vendingmachine.tray.title')}
             </h2>
 
-            <p className="text-white/70 mb-4">
-              {t("vendingmachine.tray.desc")}
+            <p className="mb-4 text-white/70">
+              {t('vendingmachine.tray.desc')}
             </p>
 
-            <ul className="space-y-2 text-white/70 mb-4">
+            <ul className="mb-4 space-y-2 text-white/70">
               {trayDetails.map((item, i) => (
-  <li key={i}>✔ {item}</li>
-))}
+                <li key={i}>✔ {item}</li>
+              ))}
             </ul>
 
-            <p className="text-yellow-400 text-sm">
-              ⚠ {t("vendingmachine.tray.note")}
+            <p className="text-sm text-yellow-400">
+              ⚠ {t('vendingmachine.tray.note')}
             </p>
           </div>
 
@@ -148,19 +142,19 @@ const customers = Object.values(
       </section>
 
       {/* 🔷 CUSTOMERS */}
-      <section className="py-16 px-6 bg-white/5">
-        <div className="max-w-6xl mx-auto text-center">
-          <h2 className="text-3xl font-semibold text-white mb-10">
-            {t("vendingmachine.customers.title")}
+      <section className="bg-white/5 px-6 py-16">
+        <div className="mx-auto max-w-6xl text-center">
+          <h2 className="mb-10 text-3xl font-semibold text-white">
+            {t('vendingmachine.customers.title')}
           </h2>
 
-          <div className="grid md:grid-cols-3 gap-6">
-  {customers.map((item, i) => (
-    <div key={i} className="p-6 bg-white/10 rounded-xl text-white">
-      ⭐ {item}
-    </div>
-  ))}
-</div>
+          <div className="grid gap-6 md:grid-cols-3">
+            {customers.map((item, i) => (
+              <div key={i} className="rounded-xl bg-white/10 p-6 text-white">
+                ⭐ {item}
+              </div>
+            ))}
+          </div>
         </div>
       </section>
     </>

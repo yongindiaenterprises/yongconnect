@@ -19,20 +19,18 @@ export default async function CompostingProjectPage({
           {t('composting.title')}
         </h1>
 
-        <p className="mt-4 text-white/80">
-          {t('composting.description')}
-        </p>
+        <p className="mt-4 text-white/80">{t('composting.description')}</p>
       </div>
 
       {/* Content */}
       <div className="relative mt-16 flex min-h-[60vh] flex-col items-center justify-center bg-gradient-to-b from-background to-background/80 px-4 py-20 text-center">
-        <h2 className="text-2xl text-white font-semibold mb-4">
+        <h2 className="mb-4 text-2xl font-semibold text-white">
           {t('composting.section1')}
         </h2>
 
         <p>{t('composting.section1Desc')}</p>
 
-        <div className="mt-6 rounded-xl overflow-hidden">
+        <div className="mt-6 overflow-hidden rounded-xl">
           <Image
             src="/projects/composting.png"
             alt="composting machine"

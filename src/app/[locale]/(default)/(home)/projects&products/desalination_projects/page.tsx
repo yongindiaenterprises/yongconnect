@@ -1,5 +1,5 @@
-import Image from "next/image";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import Image from 'next/image';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 
 export default async function DesalinationProjectPage({
   params,
@@ -11,35 +11,35 @@ export default async function DesalinationProjectPage({
 
   const t = await getTranslations({
     locale,
-    namespace: "projects&products",
+    namespace: 'projects&products',
   });
 
   // ✅ Get categories from JSON (object → array)
   const categories = Object.values(
-    t.raw("desalination.categories" as any) || {}
+    t.raw('desalination.categories' as any) || {},
   ) as any[];
 
   return (
     <>
       {/* 🔷 HERO */}
-      <section className="relative mx-8 mt-16 flex min-h-[60vh] flex-col items-center justify-center bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl px-4 py-20 text-center rounded-md">
+      <section className="relative mx-8 mt-16 flex min-h-[60vh] flex-col items-center justify-center rounded-md border border-white/10 bg-white/5 px-4 py-20 text-center shadow-xl backdrop-blur-lg">
         <h1 className="text-4xl font-bold text-white md:text-6xl">
-          {t("desalination.title")}
+          {t('desalination.title')}
         </h1>
 
         <p className="mt-4 max-w-2xl text-white/80 md:text-lg">
-          {t("desalination.description")}
+          {t('desalination.description')}
         </p>
       </section>
 
       {/* 🔷 INTRO */}
       <section className="px-6 py-16 text-center">
-        <h2 className="text-3xl font-semibold text-white mb-4">
-          {t("desalination.introTitle")}
+        <h2 className="mb-4 text-3xl font-semibold text-white">
+          {t('desalination.introTitle')}
         </h2>
 
-        <p className="max-w-3xl mx-auto text-white/70">
-          {t("desalination.introDesc")}
+        <p className="mx-auto max-w-3xl text-white/70">
+          {t('desalination.introDesc')}
         </p>
       </section>
 
@@ -47,15 +47,16 @@ export default async function DesalinationProjectPage({
       <section className="mx-8 px-6 pb-20">
         <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
           {categories.map((cat: any, i: number) => {
-            
             // ✅ FIX: convert inside map
-            const subcategories = Object.values(cat.subcategories || {}) as string[];
+            const subcategories = Object.values(
+              cat.subcategories || {},
+            ) as string[];
             const points = Object.values(cat.points || {}) as string[];
 
             return (
               <div
                 key={cat.id || i}
-                className="rounded-2xl bg-white/5 backdrop-blur-lg border border-white/10 shadow-xl overflow-hidden hover:scale-[1.02] transition"
+                className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-xl backdrop-blur-lg transition hover:scale-[1.02]"
               >
                 {/* Image */}
                 <div className="relative h-52 w-full">
@@ -69,13 +70,13 @@ export default async function DesalinationProjectPage({
 
                 {/* Content */}
                 <div className="p-6 text-left">
-                  <h3 className="text-xl font-semibold text-white mb-3">
+                  <h3 className="mb-3 text-xl font-semibold text-white">
                     {cat.title}
                   </h3>
 
                   {/* Subcategories */}
                   <div className="mb-4">
-                    <h4 className="text-sm text-gray-300 mb-2">
+                    <h4 className="mb-2 text-sm text-gray-300">
                       Sub Categories:
                     </h4>
 
@@ -83,7 +84,7 @@ export default async function DesalinationProjectPage({
                       {subcategories.map((sub, j) => (
                         <li
                           key={j}
-                          className="text-xs bg-blue-600/20 text-blue-400 px-3 py-1 rounded-full"
+                          className="rounded-full bg-blue-600/20 px-3 py-1 text-xs text-blue-400"
                         >
                           {sub}
                         </li>
@@ -92,11 +93,11 @@ export default async function DesalinationProjectPage({
                   </div>
 
                   {/* Points */}
-                  <ul className="space-y-2 mb-4">
+                  <ul className="mb-4 space-y-2">
                     {points.map((point, k) => (
                       <li
                         key={k}
-                        className="text-sm text-white/70 flex items-start gap-2"
+                        className="flex items-start gap-2 text-sm text-white/70"
                       >
                         ✅ {point}
                       </li>
@@ -104,7 +105,7 @@ export default async function DesalinationProjectPage({
                   </ul>
 
                   {/* Plan Image */}
-                  <div className="relative h-64 w-full rounded-lg overflow-hidden border border-white/10">
+                  <div className="relative h-64 w-full overflow-hidden rounded-lg border border-white/10">
                     <Image
                       src={cat.planImage}
                       alt="Plan"
