@@ -26,7 +26,7 @@
     "ical-generator": "^9.0.0",
     "lucide-react": "^0.468.0",
     "negotiator": "^1.0.0",
-    "next": "^16.2.3",
+    "next": "^15.5.15",
     "next-intl": "^3.26.5",
     "nodemailer": "^7.0.3",
     "react": "^19.2.4",
