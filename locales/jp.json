@@ -553,13 +553,10 @@
       "termsOfService": "利用規約",
       "projects": "Projects",
       "projects&products": "Projects & Products",
-      "desalination": "Desalination Plants",
-      "composting": "Composting machine",
-      "toshin": "Toshin water meter",
-      "desalination_projects": "Desalination Plant Projects",
-      "composting_projects": "Composting machine Projects",
-      "toshin_projects": "Toshin water meter Projects",
-      "vendingmachine_products": "Vending Machine Products"
+      "desalination_projects": "Desalination Plant",
+      "incinerator": "Incinerator",
+      "modular": "Modular Toilet",
+      "vendingmachine_products": "Vending Machine"
     },
     "cta": {
       "schedule": "ミーティングを予定する"
@@ -1074,17 +1071,128 @@
         }
       }
     },
-    "composting": {
-      "title": "Composting Machines",
-      "description": "Eco-friendly waste management solutions",
-      "section1": "Our Solution",
-      "section1Desc": "Convert organic waste into useful compost efficiently."
+    "incinerator": {
+      "title": "Waste Burning Incinerator",
+      "description": "Eco-friendly waste disposal system designed for efficient and hygienic waste management.",
+      "about": {
+        "title": "About Incinerator",
+        "desc": "Incinerators are advanced waste disposal systems that burn waste at high temperatures to reduce it to ash. GOMYWASTE incinerators provide an eco-friendly and cost-effective solution for handling both dry and wet waste without fuel, ensuring efficient waste management."
+      },
+      "features": {
+        "title": "Key Features",
+        "list": {
+          "f1": "Fuel-free manual burning operation",
+          "f2": "Supports both dry and wet waste (70:30 ratio)",
+          "f3": "High-temperature burning with minimal smoke",
+          "f4": "Compact and space-saving design",
+          "f5": "Easy installation and operation",
+          "f6": "Low maintenance cost",
+          "f7": "Can be installed on ground or rooftop",
+          "f8": "Eco-friendly with pollution control system"
+        }
+      },
+      "types": {
+        "title": "Available Capacities",
+        "list": {
+          "t1": "20 KG per day",
+          "t2": "30 KG per day",
+          "t3": "40 KG per day",
+          "t4": "50 KG per day",
+          "t5": "60 KG per day",
+          "t6": "80 KG per day",
+          "t7": "100 KG per day",
+          "t8": "150 KG per day"
+        }
+      },
+      "specs": {
+        "title": "Technical Specifications",
+        "list": {
+          "s1": "Single chamber incinerator system",
+          "s2": "Continuous operation mode",
+          "s3": "MS structure with refractory lining",
+          "s4": "Chimney with 6 meter height",
+          "s5": "Thermal insulation with glass wool",
+          "s6": "Separate doors for loading and ash collection",
+          "s7": "Anticorrosive heat resistant coating",
+          "s8": "Space required: 2m x 2m (varies by model)"
+        }
+      },
+      "components": {
+        "title": "Main Components",
+        "list": {
+          "c1": "Fuel Injector (optional for wet waste)",
+          "c2": "Water Scrubber for pollution control",
+          "c3": "Air Blower for airflow management",
+          "c4": "Ash Collection tray",
+          "c5": "Chimney for smoke exhaust"
+        }
+      },
+      "applications": {
+        "title": "Applications",
+        "list": {
+          "a1": "Hospitals and healthcare centers",
+          "a2": "Offices and commercial buildings",
+          "a3": "Factories and industries",
+          "a4": "Schools and institutions",
+          "a5": "Apartments and residential areas",
+          "a6": "Public places and municipalities"
+        }
+      }
     },
-    "toshin": {
-      "title": "Toshin Water Meter",
-      "description": "Smart and accurate water measurement systems",
-      "section1": "Our Product",
-      "section1Desc": "High precision water meters for modern infrastructure."
+    "modularToilet": {
+      "title": "Modular Toilet Solution",
+      "description": "Smart, hygienic and durable sanitation solution for modern infrastructure.",
+      "about": {
+        "title": "About Modular Toilets",
+        "desc": "Modular toilets are prefabricated sanitation systems designed for clean, safe, and efficient public hygiene. They are easy to install, low maintenance, and suitable for both urban and rural environments."
+      },
+      "features": {
+        "title": "Key Features",
+        "list": {
+          "f1": "Portable and dismantlable structure",
+          "f2": "Quick installation within 7 days",
+          "f3": "Low maintenance and cost-effective",
+          "f4": "Robust steel insulated structure",
+          "f5": "Concealed plumbing and electrical fittings",
+          "f6": "Non-slippery flooring for safety",
+          "f7": "Wash basin near entrance",
+          "f8": "Ensures hygiene, safety and privacy",
+          "f9": "One-stop solution with waste management"
+        }
+      },
+      "specs": {
+        "title": "Specifications",
+        "list": {
+          "s1": "Unit Size: 1220 mm x 1220 mm x 2025 mm",
+          "s2": "Wall: EPS insulated galvanized steel panels",
+          "s3": "Floor: Anti-skid tile finish",
+          "s4": "Door: Powder coated steel with accessories",
+          "s5": "Water Tank: 200 Litres capacity",
+          "s6": "Plumbing: Integrated piping system",
+          "s7": "Ventilation: 3-side airflow system",
+          "s8": "Waste Management: PVC septic tank",
+          "s9": "Closet: Ceramic Indian type"
+        }
+      },
+      "applications": {
+        "title": "Applications",
+        "list": {
+          "a1": "Public places (cities & villages)",
+          "a2": "Schools & colleges",
+          "a3": "Railway stations & bus stands",
+          "a4": "Tourist locations",
+          "a5": "Highways",
+          "a6": "Hospitals & offices"
+        }
+      },
+      "gallery": {
+        "title": "Project Gallery",
+        "images": {
+          "i1": "/projects/modular/1.jpg",
+          "i2": "/projects/modular/2.jpg",
+          "i3": "/projects/modular/3.jpg"
+        }
+      }
     },
     "vendingmachine": {
       "title": "Automatic Snacks & Beverages Vending Machine",

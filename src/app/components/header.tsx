@@ -58,17 +58,17 @@ const Header = ({ locale }: { locale: string }) => {
                   </Link>
 
                   <Link
-                    href={`/${locale}/projects&products/composting_projects`}
+                    href={`/${locale}/projects&products/incinerator_projects`}
                     className="block px-4 py-2 hover:bg-gray-700"
                   >
-                    {t('links.composting_projects')}
+                    {t('links.incinerator')}
                   </Link>
 
                   <Link
-                    href={`/${locale}/projects&products/toshin_projects`}
+                    href={`/${locale}/projects&products/modular_toilet_projects`}
                     className="block px-4 py-2 hover:bg-gray-700"
                   >
-                    {t('links.toshin_projects')}
+                    {t('links.modular')}
                   </Link>
 
                   <Link
