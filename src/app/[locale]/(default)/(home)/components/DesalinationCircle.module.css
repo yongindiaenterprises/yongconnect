@@ -1,0 +1,12 @@
+@keyframes rotateSlow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.circleRotate {
+  animation: rotateSlow 20s linear infinite;
+}

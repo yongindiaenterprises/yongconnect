@@ -5,6 +5,7 @@
 body {
   font-family: Satoshi Mono;
   @apply font-satoshi;
+
 }
 
 @layer base {
@@ -287,3 +288,5 @@ body {
   font-display: swap;
   font-style: normal;
 }
+
+

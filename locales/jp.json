@@ -556,7 +556,9 @@
       "desalination_projects": "Desalination Plant",
       "incinerator": "Incinerator",
       "modular": "Modular Toilet",
-      "vendingmachine_products": "Vending Machine"
+      "vendingmachine_products": "Vending Machine",
+      "napkin_vendingmachine_products": "Napkin Vending Machine",
+      "menstrual_cup_products": "Menstrual Cup"
     },
     "cta": {
       "schedule": "ミーティングを予定する"
@@ -1004,14 +1006,54 @@
     "desalination": {
       "title": "Desalination Project",
       "description": "Converting seawater into purified drinking water using advanced filtration systems.",
-      "introTitle": "Seawater Desalination System",
-      "introDesc": "Our desalination systems are designed for efficiency, sustainability, and scalability.",
+      "introTitle": "Building a Better Tomorrow for Water and People",
+      "introDesc": "Our watery plant, Earth, provides a rich reservoir of seawater and groundwater.\nHowever, only around 1% of this water can be used as drinking water.\nAt this very moment, a variety of changes in the natural environment, including natural disasters such as typhoons and drought, global warming, and geographical factors, are bringing about serious water shortages throughout the world.\nIf only we could eliminate regional differences in water supply and readily provide reliable and safe water for future generations.\nWe aim to use water treatment technology that is friendly towards all peoples and the environments, in order to bring about better global standards for tomorrow.",
+      "projects": {
+        "list": {
+          "p1": {
+            "name": "SO-FI-RX",
+            "image": "/projects&products/desalination/SO-FI-RX.png",
+            "desc": "Plants producing massive volumes of freshwater from seawater"
+          },
+          "p2": {
+            "name": "SO-KQ-TR",
+            "image": "/projects&products/desalination/SO-KQ-TR.png",
+            "desc": "Designing concept with superior usability"
+          },
+          "p3": {
+            "name": "SO-FDI-RX",
+            "image": "/projects&products/desalination/SO-FDI-RX.png",
+            "desc": "Plants producing freshwater directly from seawater"
+          },
+          "p4": {
+            "name": "WO-80P",
+            "image": "/projects&products/desalination/WO-80P.png",
+            "desc": "Removes toxic substances up to 99%"
+          },
+          "p5": {
+            "name": "WO-D",
+            "image": "/projects&products/desalination/WO-D.png",
+            "desc": "Two systems operated in a single unit"
+          },
+          "p6": {
+            "name": "WO-P",
+            "image": "/projects&products/desalination/WO-P.png",
+            "desc": "Plant with low running costs"
+          },
+          "p7": {
+            "name": "MF/UF",
+            "image": "/projects&products/desalination/MF-UF.png",
+            "desc": "Membrane filtration equipment"
+          }
+        }
+      },
       "categories": {
         "c1": {
           "id": "SO-FI-RX",
           "title": "SO-FI-RX",
           "image": "/projects&products/desalination/SO-FI-RX.png",
           "planImage": "/projects&products/desalination/SO-FI-RX PLAN.png",
+          "volumes": "250m³/d – 2,000m³/d",
           "subcategories": {
             "s1": "SO-FI-250RX",
             "s2": "SO-FI-300RX",
@@ -1022,10 +1064,10 @@
             "s7": "SO-FI-2000RX"
           },
           "points": {
-            "p1": "High-efficiency filtration system",
-            "p2": "Low energy consumption",
-            "p3": "Compact and scalable design",
-            "p4": "Ideal for coastal applications"
+            "title1": "Standard-type large plant-type products are listed below",
+            "desc1": "As a specialist water treatment manufacturer, AWT is capable of providing large standard plants for the production of massive volumes of water such as 250.0 - 2,000 m³/day.",
+            "title2": "Our past delivery track record has established our superior reliability",
+            "desc2": "Plants producing 4,000 m³/d or 5,000 m³/d operate in various countries all over the world. Despite being large-type equipment, they are modularized and continuously manufactured in a plant-specialized for RO equipment. Since they are created in module-type structure, they can be installed in a short period of time, and are highly praised for their superior standards."
           }
         },
         "c2": {
@@ -1033,6 +1075,7 @@
           "title": "SO-KQ-TR",
           "image": "/projects&products/desalination/SO-KQ-TR.png",
           "planImage": "/projects&products/desalination/SO-KQ-TR PLAN.png",
+          "volumes": "65m³/d – 220m³/d",
           "subcategories": {
             "s1": "SO-KQ-65TR",
             "s2": "SO-KQ-110TR",
@@ -1040,10 +1083,12 @@
             "s4": "SO-KQ-220TR"
           },
           "points": {
-            "p1": "Advanced reverse osmosis technology",
-            "p2": "Smart monitoring system",
-            "p3": "High output capacity",
-            "p4": "Durable industrial-grade materials"
+            "title1": "This series has received continued popularity throughout the world for achieving short delivery times",
+            "desc1": "This model provides short delivery times at low cost because its design assumes operation in a wide range of locations throughout the world, meaning it can be used in line with customers' wishes with a minimum level of customization.",
+            "title2": "Outstanding operability and usable by all",
+            "desc2": "Users are not required to possess any special technique, and the units can acquire germ-free drinking water only a minute after turning on the power.",
+            "title3": "Using select valve",
+            "desc3": "Users can select water according to their own needs by switching to Quality mode when water quality is important, and to Volume mode when a large volume of water is required."
           }
         },
         "c3": {
@@ -1051,6 +1096,7 @@
           "title": "SO-FDI-RX",
           "image": "/projects&products/desalination/SO-FDI-RX.png",
           "planImage": "/projects&products/desalination/SO-FDI-RX PLAN.png",
+          "volumes": "50m³/d – 2,000m³/d",
           "subcategories": {
             "s1": "SO-FDI-50TR",
             "s2": "SO-FDI-100TR",
@@ -1063,10 +1109,10 @@
             "s9": "SO-FDI-2000TR"
           },
           "points": {
-            "p1": "Eco-friendly desalination process",
-            "p2": "Solar-compatible system",
-            "p3": "AI-based monitoring",
-            "p4": "Minimal maintenance cost"
+            "title1": "Highly flexibility enabled for producing water of the preferred quality",
+            "desc1": "Users can acquire water of the preferred quality within the range of TDS 10.0 ppm to 500.0 ppm of treated water. The highly flexible features of the plant will ensure water of optimum quality for your own purpose.",
+            "title2": "Superior products created by high-technology",
+            "desc2": "By using 2-pass RO system which has been created by fully utilizing high-technology, the water produced is of equivalent quality with that produced by the evaporation method. The RO-method has lower costs when considering facilities costs and running costs."
           }
         }
       }
@@ -1137,6 +1183,14 @@
           "a5": "Apartments and residential areas",
           "a6": "Public places and municipalities"
         }
+      },
+      "gallery": {
+        "title": "Project Gallery",
+        "images": {
+          "i1": "/projects&products/incinerator/incgallery1.jpg",
+          "i2": "/projects&products/incinerator/incgallery2.jpg",
+          "i3": "/projects&products/incinerator/incgallery3.jpg"
+        }
       }
     },
     "modularToilet": {
@@ -1188,9 +1242,10 @@
       "gallery": {
         "title": "Project Gallery",
         "images": {
-          "i1": "/projects/modular/1.jpg",
-          "i2": "/projects/modular/2.jpg",
-          "i3": "/projects/modular/3.jpg"
+          "i1": "/projects&products/modular_toilet/mtgallery1.png",
+          "i2": "/projects&products/modular_toilet/mtgallery2.jpg",
+          "i3": "/projects&products/modular_toilet/mtgallery3.jpg",
+          "i4": "/projects&products/modular_toilet/modular_bg.jpg"
         }
       }
     },
@@ -1253,6 +1308,160 @@
           "c12": "Aspire Systems",
           "c13": "EY (Ernst & Young)"
         }
+      },
+      "gallery": {
+        "title": "Project Gallery",
+        "images": {
+          "i1": "/projects&products/vending_machine/vmgallery1.jpg",
+          "i2": "/projects&products/vending_machine/vmgallery2.jpg",
+          "i3": "/projects&products/vending_machine/vmgallery3.jpg"
+        }
+      }
+    },
+    "napkinVending": {
+      "title": "Sanitary Napkin Vending Machine",
+      "description": "Automated vending solution ensuring easy, hygienic and private access to sanitary napkins for women.",
+      "about": {
+        "title": "About Machine",
+        "desc": "Sanitary Napkin Vending Machines provide 24x7 availability of sanitary products without human interaction, reducing embarrassment and improving menstrual hygiene awareness."
+      },
+      "features": {
+        "title": "Key Features",
+        "list": {
+          "f1": "Fully electronic vending machine with LCD display",
+          "f2": "Spiral coil mechanism for reliable dispensing",
+          "f3": "Electronic coin acceptor with multi-coin support",
+          "f4": "USB data retrieval for sales tracking",
+          "f5": "User-friendly product display system",
+          "f6": "Customizable for different products",
+          "f7": "Automatic stock detection with refund system"
+        }
+      },
+      "advantages": {
+        "title": "Advantages",
+        "list": {
+          "a1": "24x7 availability of sanitary napkins",
+          "a2": "Eliminates embarrassment during purchase",
+          "a3": "Reduces absenteeism in schools and offices",
+          "a4": "Quick and convenient access",
+          "a5": "No need to carry napkins in advance"
+        }
+      },
+      "specs": {
+        "title": "Technical Specifications",
+        "list": {
+          "s1": "Fully automated electronic programmable machine",
+          "s2": "Wall mounted design",
+          "s3": "Two spiral product columns",
+          "s4": "Storage capacity: 78 napkins (26 packs)",
+          "s5": "Dimensions: 600 x 150 x 650 mm",
+          "s6": "Weight: 14 kg",
+          "s7": "Power: 230V / 50Hz",
+          "s8": "Made with anti-corrosive powder coated steel"
+        }
+      },
+      "applications": {
+        "title": "Applications",
+        "list": {
+          "p1": "Schools and colleges",
+          "p2": "Hospitals and health centers",
+          "p3": "Offices and workplaces",
+          "p4": "Public places and transport hubs",
+          "p5": "Hostels and institutions"
+        }
+      },
+      "gallery": {
+        "title": "Project Gallery",
+        "images": {
+          "i1": "/projects&products/napkin_vm/napkingallery1.jpg",
+          "i2": "/projects&products/napkin_vm/napkingallery2.jpg",
+          "i3": "/projects&products/napkin_vm/napkingallery3.jpg"
+        }
+      }
+    },
+    "menstrualCup": {
+      "title": "Menstrual Cup (M-Cup)",
+      "description": "A safe, reusable and eco-friendly menstrual hygiene solution designed for comfort, cost savings and sustainability.",
+      "about": {
+        "title": "About Menstrual Cup",
+        "desc": "The Menstrual Cup is a medical-grade silicone product worn internally during menstruation to collect menstrual fluid. It is reusable, flexible and provides a safe alternative to disposable sanitary products."
+      },
+      "working": {
+        "title": "How It Works",
+        "desc": "The cup is inserted into the vagina where it collects menstrual fluid. It can be used for 4–12 hours depending on flow. After removal, it is emptied, washed and reused. At the end of the cycle, it is sterilized using boiling water."
+      },
+      "benefits": {
+        "title": "Benefits",
+        "list": {
+          "b1": "Reusable for 5 to 8 years reducing long-term cost",
+          "b2": "Eco-friendly and reduces sanitary waste",
+          "b3": "Can be used up to 12 hours without change",
+          "b4": "Less leakage compared to pads and tampons",
+          "b5": "Maintains natural vaginal pH balance",
+          "b6": "Lower risk of infection and irritation",
+          "b7": "No harmful chemicals or materials",
+          "b8": "Reduces menstrual odour",
+          "b9": "Helps track menstrual flow accurately"
+        }
+      },
+      "why": {
+        "title": "Why Choose Menstrual Cup",
+        "list": {
+          "w1": "Affordable alternative to disposable products",
+          "w2": "Reduces dependency on sanitary pads",
+          "w3": "Helps improve menstrual hygiene awareness",
+          "w4": "Eliminates disposal issues of sanitary waste",
+          "w5": "Supports sustainable lifestyle"
+        }
+      },
+      "standards": {
+        "title": "Quality Standards",
+        "list": {
+          "s1": "ISO 10993-5 Cytotoxicity compliant",
+          "s2": "ISO 10993-10 Mucosal irritation tested",
+          "s3": "Sensitization tested for safety",
+          "s4": "Intracutaneous irritation tested",
+          "s5": "Intramuscular implantation tested",
+          "s6": "Vaginal irritation tested"
+        }
+      },
+      "kit": {
+        "title": "M-Cup Kit Components",
+        "list": {
+          "k1": "Menstrual Cup (Medical grade silicone)",
+          "k2": "Collapsible sterilizer cup",
+          "k3": "Menstrual cup wash solution",
+          "k4": "Storage pouch"
+        }
+      },
+      "gallery": {
+        "title": "Project Gallery",
+        "images": {
+          "i1": "/projects&products/notfound.png",
+          "i2": "/projects&products/notfound.png",
+          "i3": "/projects&products/notfound.png"
+          
+        }
+      }
+    },
+    "images": {
+      "illustrations": {
+        "title": "png images",
+        "images": {
+          "i1": "/projects&products/modular_toilet/about.svg",
+          "i2": "/projects&products/modular_toilet/features.svg",
+          "i3": "/projects&products/modular_toilet/specifications.svg",
+          "i4": "/projects&products/modular_toilet/application.svg",
+          "i5": "/projects&products/modular_toilet/gallery.svg"
+        }
+      },
+      "headingbg": {
+        "i1": "/projects&products/modular_toilet/modular_bg.jpg",
+        "i2": "/projects&products/desalination/desalination_bg.png",
+        "i3": "/projects&products/incinerator/incinerator_bg.png",
+        "i4": "/projects&products/menstrual_cup/cup.webp",
+        "i5": "/projects&products/vending_machine/vending_bg.jpg",
+        "i6": "/projects&products/napkin_vm/napkin_vm_bg.png"
       }
     }
   }

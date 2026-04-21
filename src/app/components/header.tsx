@@ -77,6 +77,18 @@ const Header = ({ locale }: { locale: string }) => {
                   >
                     {t('links.vendingmachine_products')}
                   </Link>
+                  <Link
+                    href={`/${locale}/projects&products/napkin_vending_machine_products`}
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    {t('links.napkin_vendingmachine_products')}
+                  </Link>
+                  <Link
+                    href={`/${locale}/projects&products/menstrual_cup_products`}
+                    className="block px-4 py-2 hover:bg-gray-700"
+                  >
+                    {t('links.menstrual_cup_products')}
+                  </Link>
                 </div>
               )}
             </div>
