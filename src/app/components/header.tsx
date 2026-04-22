@@ -132,6 +132,86 @@ const Header = ({ locale }: { locale: string }) => {
               >
                 {t('links.aboutUs')}
               </Link>
+
+              <div className="group relative">
+                {/* Main Button */}
+                <button
+                  onClick={() => setOpenDropdown(!openDropdown)}
+                  className="font-medium text-white hover:text-gray-300"
+                >
+                  {t('links.projects&products')}
+                </button>
+
+                {/* Dropdown Menu */}
+                {openDropdown && (
+                  <div className="absolute left-0 mt-3 w-48 origin-top scale-95 transform rounded-lg bg-[#1f1f1f] text-white opacity-0 shadow-lg transition-all duration-200 group-hover:scale-100 group-hover:opacity-100">
+                    <Link
+                      href={`/${locale}/projects&products/desalination_projects`}
+                      className="block px-4 py-2 hover:bg-gray-700"
+                      onClick={() => {
+                        setIsOpen(false);        // close navbar
+                        setOpenDropdown(false);  // close dropdown
+                      }}
+                    >
+                      {t('links.desalination_projects')}
+                    </Link>
+
+                    <Link
+                      href={`/${locale}/projects&products/incinerator_projects`}
+                      className="block px-4 py-2 hover:bg-gray-700"
+                      onClick={() => {
+                        setIsOpen(false);        // close navbar
+                        setOpenDropdown(false);  // close dropdown
+                      }}
+                    >
+                      {t('links.incinerator')}
+                    </Link>
+
+                    <Link
+                      href={`/${locale}/projects&products/modular_toilet_projects`}
+                      className="block px-4 py-2 hover:bg-gray-700"
+                      onClick={() => {
+                        setIsOpen(false);        // close navbar
+                        setOpenDropdown(false);  // close dropdown
+                      }}
+                    >
+                      {t('links.modular')}
+                    </Link>
+
+                    <Link
+                      href={`/${locale}/projects&products/vendingmachine_products`}
+                      className="block px-4 py-2 hover:bg-gray-700"
+                      onClick={() => {
+                        setIsOpen(false);        // close navbar
+                        setOpenDropdown(false);  // close dropdown
+                      }}
+                    >
+                      {t('links.vendingmachine_products')}
+                    </Link>
+                    <Link
+                      href={`/${locale}/projects&products/napkin_vending_machine_products`}
+                      className="block px-4 py-2 hover:bg-gray-700"
+                      onClick={() => {
+                        setIsOpen(false);        // close navbar
+                        setOpenDropdown(false);  // close dropdown
+                      }}
+                    >
+                      {t('links.napkin_vendingmachine_products')}
+                    </Link>
+                    <Link
+                      href={`/${locale}/projects&products/menstrual_cup_products`}
+                      className="block px-4 py-2 hover:bg-gray-700"
+                      onClick={() => {
+                        setIsOpen(false);        // close navbar
+                        setOpenDropdown(false);  // close dropdown
+                      }}
+                    >
+                      {t('links.menstrual_cup_products')}
+                    </Link>
+                  </div>
+                )}
+              </div>
+
               <Link
                 href={`/${locale}/support`}
                 className="block font-medium text-white hover:text-gray-300"
