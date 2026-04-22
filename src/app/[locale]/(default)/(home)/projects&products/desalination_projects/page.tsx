@@ -73,7 +73,17 @@ export default async function DesalinationProjectPage({
 
       {/* graph grid  */}
 
-      <DesalinationCircle projects={projects} />;
+      <div className="w-full flex justify-center">
+        <div
+          className="relative w-[560px] h-[660px] overflow-hidden isolate"
+          style={{ contain: "layout paint size", willChange: "transform" }}
+        >
+          <DesalinationCircle projects={projects} />;
+        </div>
+      </div>
+
+
+
 
       {/* 🔷 CATEGORY GRID */}
       <section className="mx-8 px-6 pb-20">
