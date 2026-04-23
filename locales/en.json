@@ -998,29 +998,6 @@
       "close": "Close"
     }
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
   "projects&products": {
     "desalination": {
       "title": "Desalination Project",
@@ -1087,6 +1064,130 @@
             "desc1": "As a specialist water treatment manufacturer, AWT is capable of providing large standard plants for the production of massive volumes of water such as 250.0 - 2,000 m³/day.",
             "title2": "Our past delivery track record has established our superior reliability",
             "desc2": "Plants producing 4,000 m³/d or 5,000 m³/d operate in various countries all over the world. Despite being large-type equipment, they are modularized and continuously manufactured in a plant-specialized for RO equipment. Since they are created in module-type structure, they can be installed in a short period of time, and are highly praised for their superior standards."
+          },
+          "table": {
+            "models": {
+              "SO-FI-250RX": {
+                "treated_water_volume_m3d": 250.0,
+                "treated_water_volume_m3h": 10.4,
+                "treated_water_volume_m3m": 0.17,
+                "seawater_intake_m3d": 714.3,
+                "seawater_intake_m3h": 29.8,
+                "seawater_intake_m3m": 0.50,
+                "recovery_rate": 35.0,
+                "shaft_power": 28.1,
+                "motor_used": 35.5,
+                "electric_consumption": 2.70,
+                "depth": 1800,
+                "width": 7500,
+                "height": 2000
+              },
+              "SO-FI-300RX": {
+                "treated_water_volume_m3d": 300.0,
+                "treated_water_volume_m3h": 12.5,
+                "treated_water_volume_m3m": 0.21,
+                "seawater_intake_m3d": 810.8,
+                "seawater_intake_m3h": 33.8,
+                "seawater_intake_m3m": 0.56,
+                "recovery_rate": 37.0,
+                "shaft_power": 33.5,
+                "motor_used": 48.0,
+                "electric_consumption": 2.68,
+                "depth": 2000,
+                "width": 7500,
+                "height": 2000
+              },
+              "SO-FI-500RX": {
+                "treated_water_volume_m3d": 500.0,
+                "treated_water_volume_m3h": 20.8,
+                "treated_water_volume_m3m": 0.35,
+                "seawater_intake_m3d": 1351.4,
+                "seawater_intake_m3h": 56.3,
+                "seawater_intake_m3m": 0.94,
+                "recovery_rate": 37.0,
+                "shaft_power": 55.8,
+                "motor_used": 66.0,
+                "electric_consumption": 2.68,
+                "depth": 2200,
+                "width": 7500,
+                "height": 2400
+              },
+              "SO-FI-750RX": {
+                "treated_water_volume_m3d": 750.0,
+                "treated_water_volume_m3h": 31.3,
+                "treated_water_volume_m3m": 0.52,
+                "seawater_intake_m3d": 2027.0,
+                "seawater_intake_m3h": 84.5,
+                "seawater_intake_m3m": 1.41,
+                "recovery_rate": 37.0,
+                "shaft_power": 83.6,
+                "motor_used": 106.5,
+                "electric_consumption": 2.68,
+                "depth": 2300,
+                "width": 7500,
+                "height": 2400
+              },
+              "SO-FI-1000RX": {
+                "treated_water_volume_m3d": 1000.0,
+                "treated_water_volume_m3h": 41.7,
+                "treated_water_volume_m3m": 0.69,
+                "seawater_intake_m3d": 2702.7,
+                "seawater_intake_m3h": 112.6,
+                "seawater_intake_m3m": 1.88,
+                "recovery_rate": 37.0,
+                "shaft_power": 111.5,
+                "motor_used": 132.0,
+                "electric_consumption": 2.68,
+                "depth": 3500,
+                "width": 7500,
+                "height": 2400
+              },
+              "SO-FI-1500RX": {
+                "treated_water_volume_m3d": 1500.0,
+                "treated_water_volume_m3h": 62.5,
+                "treated_water_volume_m3m": 1.04,
+                "seawater_intake_m3d": 4054.1,
+                "seawater_intake_m3h": 168.9,
+                "seawater_intake_m3m": 2.82,
+                "recovery_rate": 37.0,
+                "shaft_power": 167.3,
+                "motor_used": 193.0,
+                "electric_consumption": 2.68,
+                "depth": 5000,
+                "width": 7500,
+                "height": 2400
+              },
+              "SO-FI-2000RX": {
+                "treated_water_volume_m3d": 2000.0,
+                "treated_water_volume_m3h": 83.3,
+                "treated_water_volume_m3m": 1.39,
+                "seawater_intake_m3d": 5405.4,
+                "seawater_intake_m3h": 225.2,
+                "seawater_intake_m3m": 3.75,
+                "recovery_rate": 37.0,
+                "shaft_power": 216.6,
+                "motor_used": 244.0,
+                "electric_consumption": 2.60,
+                "depth": 6000,
+                "width": 7500,
+                "height": 2400
+              }
+            },
+            "rowLabels": {
+              "treated_water_volume_m3d": "Treated Water (m³/d)",
+              "treated_water_volume_m3h": "Treated Water (m³/h)",
+              "treated_water_volume_m3m": "Treated Water (m³/min)",
+              "seawater_intake_m3d": "Seawater Intake (m³/d)",
+              "seawater_intake_m3h": "Seawater Intake (m³/h)",
+              "seawater_intake_m3m": "Seawater Intake (m³/min)",
+              "recovery_rate": "Recovery Rate (%)",
+              "shaft_power": "Shaft Power (kW)",
+              "motor_used": "Motor Used (kW)",
+              "electric_consumption": "Electric Consumption (kWh/m³)",
+              "depth": "Depth (mm)",
+              "width": "Width (mm)",
+              "height": "Height (mm)"
+            }
           }
         },
         "c2": {
@@ -1108,6 +1209,90 @@
             "desc2": "Users are not required to possess any special technique, and the units can acquire germ-free drinking water only a minute after turning on the power.",
             "title3": "Using select valve",
             "desc3": "Users can select water according to their own needs by switching to Quality mode when water quality is important, and to Volume mode when a large volume of water is required."
+          },
+          "table": {
+            "models": {
+              "SO-KQ-65TR": {
+                "treated_water_volume_m3d": 65.0,
+                "treated_water_volume_m3h": 2.7,
+                "treated_water_volume_lpm": 45.1,
+                "seawater_intake_m3d": 172.8,
+                "seawater_intake_m3h": 7.2,
+                "seawater_intake_m3m": 0.12,
+                "recovery_rate": 37.62,
+                "shaft_power": 9.9,
+                "motor_used": 11.0,
+                "electric_consumption": 3.68,
+                "depth": 1800,
+                "width": 5750,
+                "height": 1600,
+                "energy_saved": 4.99
+              },
+              "SO-KQ-110TR": {
+                "treated_water_volume_m3d": 110.0,
+                "treated_water_volume_m3h": 4.6,
+                "treated_water_volume_lpm": 76.4,
+                "seawater_intake_m3d": 302.4,
+                "seawater_intake_m3h": 12.6,
+                "seawater_intake_m3m": 0.21,
+                "recovery_rate": 36.38,
+                "shaft_power": 17.5,
+                "motor_used": 22.0,
+                "electric_consumption": 3.82,
+                "depth": 1800,
+                "width": 5750,
+                "height": 2000,
+                "energy_saved": 8.73
+              },
+              "SO-KQ-D130TR": {
+                "treated_water_volume_m3d": "65.0 × 2",
+                "treated_water_volume_m3h": "2.7 × 2",
+                "treated_water_volume_lpm": "45.1 × 2",
+                "seawater_intake_m3d": "172.8 × 2",
+                "seawater_intake_m3h": "7.2 × 2",
+                "seawater_intake_m3m": "0.12 × 2",
+                "recovery_rate": 37.62,
+                "shaft_power": "9.9 × 2",
+                "motor_used": "11.0 × 2",
+                "electric_consumption": 3.68,
+                "depth": 1800,
+                "width": 5750,
+                "height": 2000,
+                "energy_saved": 9.98
+              },
+              "SO-KQ-D220TR": {
+                "treated_water_volume_m3d": "110.0 × 2",
+                "treated_water_volume_m3h": "4.6 × 2",
+                "treated_water_volume_lpm": "76.4 × 2",
+                "seawater_intake_m3d": "302.4 × 2",
+                "seawater_intake_m3h": "12.6 × 2",
+                "seawater_intake_m3m": "0.21 × 2",
+                "recovery_rate": 36.38,
+                "shaft_power": "17.5 × 2",
+                "motor_used": "22.0 × 2",
+                "electric_consumption": 3.82,
+                "depth": 2000,
+                "width": 5750,
+                "height": 2000,
+                "energy_saved": 17.46
+              }
+            },
+            "rowLabels": {
+              "treated_water_volume_m3d": "Treated Water (m³/d)",
+              "treated_water_volume_m3h": "Treated Water (m³/h)",
+              "treated_water_volume_lpm": "Treated Water (ℓ/min)",
+              "seawater_intake_m3d": "Seawater Intake (m³/d)",
+              "seawater_intake_m3h": "Seawater Intake (m³/h)",
+              "seawater_intake_m3m": "Seawater Intake (m³/min)",
+              "recovery_rate": "Recovery Rate (%)",
+              "shaft_power": "Shaft Power (kW)",
+              "motor_used": "Motor Used (kW)",
+              "electric_consumption": "Electric Consumption (kWh/m³)",
+              "depth": "Depth (mm)",
+              "width": "Width (mm)",
+              "height": "Height (mm)",
+              "energy_saved": "Energy Saved (kW)"
+            }
           }
         },
         "c3": {
@@ -1132,6 +1317,160 @@
             "desc1": "Users can acquire water of the preferred quality within the range of TDS 10.0 ppm to 500.0 ppm of treated water. The highly flexible features of the plant will ensure water of optimum quality for your own purpose.",
             "title2": "Superior products created by high-technology",
             "desc2": "By using 2-pass RO system which has been created by fully utilizing high-technology, the water produced is of equivalent quality with that produced by the evaporation method. The RO-method has lower costs when considering facilities costs and running costs."
+          },
+          "table": {
+            "models": {
+              "SO-FDI-50TR": {
+                "treated_water_volume_m3d": 50.0,
+                "treated_water_volume_m3h": 2.1,
+                "treated_water_volume_m3m": 0.03,
+                "seawater_intake_m3d": 167.8,
+                "seawater_intake_m3h": 7.0,
+                "seawater_intake_m3m": 0.12,
+                "recovery_rate": 29.8,
+                "shaft_power": 10.1,
+                "motor_used": 11.0,
+                "electric_consumption": 4.86,
+                "depth": 1800,
+                "width": 7500,
+                "height": 2200
+              },
+              "SO-FDI-100TR": {
+                "treated_water_volume_m3d": 100.0,
+                "treated_water_volume_m3h": 4.2,
+                "treated_water_volume_m3m": 0.07,
+                "seawater_intake_m3d": 292.4,
+                "seawater_intake_m3h": 12.2,
+                "seawater_intake_m3m": 0.20,
+                "recovery_rate": 34.2,
+                "shaft_power": 17.7,
+                "motor_used": 22.0,
+                "electric_consumption": 4.24,
+                "depth": 1800,
+                "width": 7500,
+                "height": 2200
+              },
+              "SO-FDI-200RX": {
+                "treated_water_volume_m3d": 200.0,
+                "treated_water_volume_m3h": 8.3,
+                "treated_water_volume_m3m": 0.14,
+                "seawater_intake_m3d": 540.5,
+                "seawater_intake_m3h": 22.5,
+                "seawater_intake_m3m": 0.38,
+                "recovery_rate": 37.0,
+                "shaft_power": 25.5,
+                "motor_used": 27.5,
+                "electric_consumption": 3.06,
+                "depth": 1800,
+                "width": 7500,
+                "height": 2200
+              },
+              "SO-FDI-300RX": {
+                "treated_water_volume_m3d": 300.0,
+                "treated_water_volume_m3h": 12.5,
+                "treated_water_volume_m3m": 0.21,
+                "seawater_intake_m3d": 781.3,
+                "seawater_intake_m3h": 32.6,
+                "seawater_intake_m3m": 0.54,
+                "recovery_rate": 38.4,
+                "shaft_power": 38.1,
+                "motor_used": 42.5,
+                "electric_consumption": 3.05,
+                "depth": 2300,
+                "width": 7500,
+                "height": 2200
+              },
+              "SO-FDI-500RX": {
+                "treated_water_volume_m3d": 500.0,
+                "treated_water_volume_m3h": 20.8,
+                "treated_water_volume_m3m": 0.35,
+                "seawater_intake_m3d": 1301.4,
+                "seawater_intake_m3h": 54.2,
+                "seawater_intake_m3m": 0.90,
+                "recovery_rate": 38.4,
+                "shaft_power": 63.5,
+                "motor_used": 86.0,
+                "electric_consumption": 3.05,
+                "depth": 2300,
+                "width": 7500,
+                "height": 2400
+              },
+              "SO-FDI-750RX": {
+                "treated_water_volume_m3d": 750.0,
+                "treated_water_volume_m3h": 31.3,
+                "treated_water_volume_m3m": 0.52,
+                "seawater_intake_m3d": 1952.1,
+                "seawater_intake_m3h": 81.3,
+                "seawater_intake_m3m": 1.36,
+                "recovery_rate": 38.4,
+                "shaft_power": 117.9,
+                "motor_used": 160.0,
+                "electric_consumption": 3.77,
+                "depth": 3500,
+                "width": 7700,
+                "height": 2400
+              },
+              "SO-FDI-1000RX": {
+                "treated_water_volume_m3d": 1000.0,
+                "treated_water_volume_m3h": 41.7,
+                "treated_water_volume_m3m": 0.69,
+                "seawater_intake_m3d": 2602.7,
+                "seawater_intake_m3h": 108.4,
+                "seawater_intake_m3m": 1.81,
+                "recovery_rate": 38.4,
+                "shaft_power": 127.0,
+                "motor_used": 154.0,
+                "electric_consumption": 3.05,
+                "depth": 4500,
+                "width": 7700,
+                "height": 2400
+              },
+              "SO-FDI-1500RX": {
+                "treated_water_volume_m3d": 1500.0,
+                "treated_water_volume_m3h": 62.5,
+                "treated_water_volume_m3m": 1.04,
+                "seawater_intake_m3d": 3904.1,
+                "seawater_intake_m3h": 162.7,
+                "seawater_intake_m3m": 2.71,
+                "recovery_rate": 38.4,
+                "shaft_power": 190.5,
+                "motor_used": 233.0,
+                "electric_consumption": 3.05,
+                "depth": 5500,
+                "width": 7700,
+                "height": 2400
+              },
+              "SO-FDI-2000RX": {
+                "treated_water_volume_m3d": 2000.0,
+                "treated_water_volume_m3h": 83.3,
+                "treated_water_volume_m3m": 1.39,
+                "seawater_intake_m3d": 5205.1,
+                "seawater_intake_m3h": 216.9,
+                "seawater_intake_m3m": 3.61,
+                "recovery_rate": 38.4,
+                "shaft_power": 254.0,
+                "motor_used": 324.0,
+                "electric_consumption": 3.05,
+                "depth": 6750,
+                "width": 7700,
+                "height": 2400
+              }
+            },
+            "rowLabels": {
+              "treated_water_volume_m3d": "Treated Water (m³/d)",
+              "treated_water_volume_m3h": "Treated Water (m³/h)",
+              "treated_water_volume_m3m": "Treated Water (m³/min)",
+              "seawater_intake_m3d": "Seawater Intake (m³/d)",
+              "seawater_intake_m3h": "Seawater Intake (m³/h)",
+              "seawater_intake_m3m": "Seawater Intake (m³/min)",
+              "recovery_rate": "Recovery Rate (%)",
+              "shaft_power": "Shaft Power (kW)",
+              "motor_used": "Motor Used (kW)",
+              "electric_consumption": "Electric Consumption (kWh/m³)",
+              "depth": "Depth (mm)",
+              "width": "Width (mm)",
+              "height": "Height (mm)"
+            }
           }
         }
       }
@@ -1459,7 +1798,6 @@
           "i1": "/projects&products/notfound.png",
           "i2": "/projects&products/notfound.png",
           "i3": "/projects&products/notfound.png"
-          
         }
       }
     },

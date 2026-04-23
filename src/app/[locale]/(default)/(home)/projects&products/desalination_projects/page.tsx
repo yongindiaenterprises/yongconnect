@@ -3,6 +3,8 @@ import { getTranslations, setRequestLocale } from 'next-intl/server';
 import ImageLightbox from "@/app/[locale]/(default)/(home)/components/ImageLightbox";
 import TypingText from "@/app/[locale]/(default)/(home)/components/typingText";
 import DesalinationCircle from "@/app/[locale]/(default)/(home)/components/desalinationCircle";
+import DesalinationTable from "@/app/[locale]/(default)/(home)/components/DesalinationTable";
+import DesalinationTableViewer from "@/app/[locale]/(default)/(home)/components/DesalinationTableViewer";
 import styles from "./DesalinationCircle.module.css";
 
 export default async function DesalinationProjectPage({
@@ -30,6 +32,7 @@ export default async function DesalinationProjectPage({
     image: string;
     desc: string;
   }[];
+  const table = t.raw("desalination.categories.c1.table" as any);
 
   return (
     <>
@@ -78,7 +81,7 @@ export default async function DesalinationProjectPage({
           className="relative w-[560px] h-[660px] overflow-hidden isolate"
           style={{ contain: "layout paint size", willChange: "transform" }}
         >
-          <DesalinationCircle projects={projects} />;
+          <DesalinationCircle projects={projects} />
         </div>
       </div>
 
@@ -177,11 +180,22 @@ export default async function DesalinationProjectPage({
                     alt="Plan"
                     className="h-64 w-full rounded-lg border border-white/10 overflow-hidden"
                   />
+                  {cat?.table && (
+                    <DesalinationTableViewer
+                      models={cat.table.models}
+                      rowLabels={cat.table.rowLabels}
+                    />
+                  )}
+
                 </div>
+
               </div>
+
             );
           })}
+
         </div>
+
       </section>
     </>
   );
