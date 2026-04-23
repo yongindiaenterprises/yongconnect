@@ -546,22 +546,22 @@
   },
   "header": {
     "links": {
-      "aboutUs": "私たちについて",
-      "yongConnect": "ヨング接続",
+      "aboutUs": "会社概要",
+      "yongConnect": "YONGコネクト",
       "support": "サポート",
       "privacyPolicy": "プライバシーポリシー",
       "termsOfService": "利用規約",
-      "projects": "Projects",
-      "projects&products": "Projects & Products",
-      "desalination_projects": "Desalination Plant",
-      "incinerator": "Incinerator",
-      "modular": "Modular Toilet",
-      "vendingmachine_products": "Vending Machine",
-      "napkin_vendingmachine_products": "Napkin Vending Machine",
-      "menstrual_cup_products": "Menstrual Cup"
+      "projects": "プロジェクト",
+      "projects&products": "プロジェクト＆製品",
+      "desalination_projects": "海水淡水化プラント",
+      "incinerator": "焼却炉",
+      "modular": "モジュラートイレ",
+      "vendingmachine_products": "自動販売機",
+      "napkin_vendingmachine_products": "ナプキン自動販売機",
+      "menstrual_cup_products": "月経カップ"
     },
     "cta": {
-      "schedule": "ミーティングを予定する"
+      "schedule": "ミーティングを予約"
     }
   },
   "footer": {
@@ -1004,46 +1004,46 @@
   },
   "projects&products": {
     "desalination": {
-      "title": "Desalination Project",
-      "description": "Converting seawater into purified drinking water using advanced filtration systems.",
-      "introTitle": "Building a Better Tomorrow for Water and People",
-      "introDesc": "Our watery plant, Earth, provides a rich reservoir of seawater and groundwater.\nHowever, only around 1% of this water can be used as drinking water.\nAt this very moment, a variety of changes in the natural environment, including natural disasters such as typhoons and drought, global warming, and geographical factors, are bringing about serious water shortages throughout the world.\nIf only we could eliminate regional differences in water supply and readily provide reliable and safe water for future generations.\nWe aim to use water treatment technology that is friendly towards all peoples and the environments, in order to bring about better global standards for tomorrow.",
+      "title": "海水淡水化プロジェクト",
+      "description": "高度なろ過システムを使用して海水を飲料水へと変換します。",
+      "introTitle": "水と人々のためのより良い未来を築く",
+      "introDesc": "地球は海水や地下水という豊富な水資源を持っています。\nしかし、そのうち飲料水として利用できるのはわずか約1％です。\n現在、台風や干ばつなどの自然災害、地球温暖化、地理的要因により、世界中で深刻な水不足が発生しています。\n地域ごとの水供給の格差を解消し、将来の世代に安全で信頼できる水を提供できる社会を目指しています。\n私たちは、人と環境に優しい水処理技術を活用し、より良い世界基準の実現に貢献します。",
       "projects": {
         "list": {
           "p1": {
             "name": "SO-FI-RX",
             "image": "/projects&products/desalination/SO-FI-RX.png",
-            "desc": "Plants producing massive volumes of freshwater from seawater"
+            "desc": "海水から大量の淡水を生産するプラント"
           },
           "p2": {
             "name": "SO-KQ-TR",
             "image": "/projects&products/desalination/SO-KQ-TR.png",
-            "desc": "Designing concept with superior usability"
+            "desc": "優れた操作性を備えた設計コンセプト"
           },
           "p3": {
             "name": "SO-FDI-RX",
             "image": "/projects&products/desalination/SO-FDI-RX.png",
-            "desc": "Plants producing freshwater directly from seawater"
+            "desc": "海水から直接淡水を生成するプラント"
           },
           "p4": {
             "name": "WO-80P",
             "image": "/projects&products/desalination/WO-80P.png",
-            "desc": "Removes toxic substances up to 99%"
+            "desc": "有害物質を最大99％除去"
           },
           "p5": {
             "name": "WO-D",
             "image": "/projects&products/desalination/WO-D.png",
-            "desc": "Two systems operated in a single unit"
+            "desc": "1ユニットで2つのシステムを運用可能"
           },
           "p6": {
             "name": "WO-P",
             "image": "/projects&products/desalination/WO-P.png",
-            "desc": "Plant with low running costs"
+            "desc": "低ランニングコストのプラント"
           },
           "p7": {
             "name": "MF/UF",
             "image": "/projects&products/desalination/MF-UF.png",
-            "desc": "Membrane filtration equipment"
+            "desc": "膜ろ過装置"
           }
         }
       },
@@ -1053,7 +1053,7 @@
           "title": "SO-FI-RX",
           "image": "/projects&products/desalination/SO-FI-RX.png",
           "planImage": "/projects&products/desalination/SO-FI-RX PLAN.png",
-          "volumes": "250m³/d – 2,000m³/d",
+          "volumes": "250m³/日 – 2,000m³/日",
           "subcategories": {
             "s1": "SO-FI-250RX",
             "s2": "SO-FI-300RX",
@@ -1064,10 +1064,10 @@
             "s7": "SO-FI-2000RX"
           },
           "points": {
-            "title1": "Standard-type large plant-type products are listed below",
-            "desc1": "As a specialist water treatment manufacturer, AWT is capable of providing large standard plants for the production of massive volumes of water such as 250.0 - 2,000 m³/day.",
-            "title2": "Our past delivery track record has established our superior reliability",
-            "desc2": "Plants producing 4,000 m³/d or 5,000 m³/d operate in various countries all over the world. Despite being large-type equipment, they are modularized and continuously manufactured in a plant-specialized for RO equipment. Since they are created in module-type structure, they can be installed in a short period of time, and are highly praised for their superior standards."
+            "title1": "標準型大型プラント製品",
+            "desc1": "水処理の専門メーカーとして、AWTは250〜2,000m³/日の大容量水生産が可能な標準プラントを提供しています。",
+            "title2": "実績に裏付けられた高い信頼性",
+            "desc2": "4,000m³/日や5,000m³/日のプラントが世界各国で稼働しています。大型設備でありながらモジュール化されており、短期間で設置可能です。RO設備専用工場で継続的に製造され、高品質と優れた性能で高い評価を得ています。"
           }
         },
         "c2": {
@@ -1075,7 +1075,7 @@
           "title": "SO-KQ-TR",
           "image": "/projects&products/desalination/SO-KQ-TR.png",
           "planImage": "/projects&products/desalination/SO-KQ-TR PLAN.png",
-          "volumes": "65m³/d – 220m³/d",
+          "volumes": "65m³/日 – 220m³/日",
           "subcategories": {
             "s1": "SO-KQ-65TR",
             "s2": "SO-KQ-110TR",
@@ -1083,12 +1083,12 @@
             "s4": "SO-KQ-220TR"
           },
           "points": {
-            "title1": "This series has received continued popularity throughout the world for achieving short delivery times",
-            "desc1": "This model provides short delivery times at low cost because its design assumes operation in a wide range of locations throughout the world, meaning it can be used in line with customers' wishes with a minimum level of customization.",
-            "title2": "Outstanding operability and usable by all",
-            "desc2": "Users are not required to possess any special technique, and the units can acquire germ-free drinking water only a minute after turning on the power.",
-            "title3": "Using select valve",
-            "desc3": "Users can select water according to their own needs by switching to Quality mode when water quality is important, and to Volume mode when a large volume of water is required."
+            "title1": "短納期を実現し世界中で高い評価を得ているシリーズ",
+            "desc1": "世界中での運用を前提に設計されているため、最小限のカスタマイズで導入可能であり、低コストかつ短納期を実現します。",
+            "title2": "優れた操作性と誰でも使いやすい設計",
+            "desc2": "特別な技術は不要で、電源投入からわずか1分で安全な飲料水を得ることができます。",
+            "title3": "セレクトバルブ機能",
+            "desc3": "水質を重視する場合は品質モード、大量供給が必要な場合は容量モードを選択でき、用途に応じた水供給が可能です。"
           }
         },
         "c3": {
@@ -1096,7 +1096,7 @@
           "title": "SO-FDI-RX",
           "image": "/projects&products/desalination/SO-FDI-RX.png",
           "planImage": "/projects&products/desalination/SO-FDI-RX PLAN.png",
-          "volumes": "50m³/d – 2,000m³/d",
+          "volumes": "50m³/日 – 2,000m³/日",
           "subcategories": {
             "s1": "SO-FDI-50TR",
             "s2": "SO-FDI-100TR",
@@ -1109,83 +1109,83 @@
             "s9": "SO-FDI-2000TR"
           },
           "points": {
-            "title1": "Highly flexibility enabled for producing water of the preferred quality",
-            "desc1": "Users can acquire water of the preferred quality within the range of TDS 10.0 ppm to 500.0 ppm of treated water. The highly flexible features of the plant will ensure water of optimum quality for your own purpose.",
-            "title2": "Superior products created by high-technology",
-            "desc2": "By using 2-pass RO system which has been created by fully utilizing high-technology, the water produced is of equivalent quality with that produced by the evaporation method. The RO-method has lower costs when considering facilities costs and running costs."
+            "title1": "柔軟な水質調整が可能",
+            "desc1": "処理水のTDSを10ppm〜500ppmの範囲で調整でき、用途に応じた最適な水質を提供します。",
+            "title2": "高度技術による高性能製品",
+            "desc2": "高性能な2パスROシステムにより、蒸発法と同等の水質を実現します。設備費および運用コストの両面で優れた経済性を発揮します。"
           }
         }
       }
     },
     "incinerator": {
-      "title": "Waste Burning Incinerator",
-      "description": "Eco-friendly waste disposal system designed for efficient and hygienic waste management.",
+      "title": "廃棄物焼却炉",
+      "description": "効率的かつ衛生的な廃棄物管理のために設計された環境に優しい処理システム。",
       "about": {
-        "title": "About Incinerator",
-        "desc": "Incinerators are advanced waste disposal systems that burn waste at high temperatures to reduce it to ash. GOMYWASTE incinerators provide an eco-friendly and cost-effective solution for handling both dry and wet waste without fuel, ensuring efficient waste management."
+        "title": "焼却炉について",
+        "desc": "焼却炉は高温で廃棄物を燃焼させ灰に変換する高度な処理システムです。GOMYWASTE焼却炉は、燃料を使用せずに乾燥および湿潤廃棄物の両方に対応し、効率的で環境に優しく、コスト効率の高い廃棄物処理を実現します。"
       },
       "features": {
-        "title": "Key Features",
+        "title": "主な特徴",
         "list": {
-          "f1": "Fuel-free manual burning operation",
-          "f2": "Supports both dry and wet waste (70:30 ratio)",
-          "f3": "High-temperature burning with minimal smoke",
-          "f4": "Compact and space-saving design",
-          "f5": "Easy installation and operation",
-          "f6": "Low maintenance cost",
-          "f7": "Can be installed on ground or rooftop",
-          "f8": "Eco-friendly with pollution control system"
+          "f1": "燃料不要の手動燃焼方式",
+          "f2": "乾燥および湿潤廃棄物に対応（70:30比率）",
+          "f3": "高温燃焼による低煙処理",
+          "f4": "コンパクトで省スペース設計",
+          "f5": "簡単な設置と操作",
+          "f6": "低メンテナンスコスト",
+          "f7": "地上または屋上に設置可能",
+          "f8": "排出制御機能を備えた環境配慮設計"
         }
       },
       "types": {
-        "title": "Available Capacities",
+        "title": "対応処理容量",
         "list": {
-          "t1": "20 KG per day",
-          "t2": "30 KG per day",
-          "t3": "40 KG per day",
-          "t4": "50 KG per day",
-          "t5": "60 KG per day",
-          "t6": "80 KG per day",
-          "t7": "100 KG per day",
-          "t8": "150 KG per day"
+          "t1": "1日あたり20kg",
+          "t2": "1日あたり30kg",
+          "t3": "1日あたり40kg",
+          "t4": "1日あたり50kg",
+          "t5": "1日あたり60kg",
+          "t6": "1日あたり80kg",
+          "t7": "1日あたり100kg",
+          "t8": "1日あたり150kg"
         }
       },
       "specs": {
-        "title": "Technical Specifications",
+        "title": "技術仕様",
         "list": {
-          "s1": "Single chamber incinerator system",
-          "s2": "Continuous operation mode",
-          "s3": "MS structure with refractory lining",
-          "s4": "Chimney with 6 meter height",
-          "s5": "Thermal insulation with glass wool",
-          "s6": "Separate doors for loading and ash collection",
-          "s7": "Anticorrosive heat resistant coating",
-          "s8": "Space required: 2m x 2m (varies by model)"
+          "s1": "単室型焼却システム",
+          "s2": "連続運転モード",
+          "s3": "耐火ライニング付きMS構造",
+          "s4": "高さ6メートルの煙突",
+          "s5": "グラスウールによる断熱",
+          "s6": "投入用と灰回収用の独立ドア",
+          "s7": "耐腐食性耐熱コーティング",
+          "s8": "設置スペース：2m × 2m（機種により異なる）"
         }
       },
       "components": {
-        "title": "Main Components",
+        "title": "主要構成部品",
         "list": {
-          "c1": "Fuel Injector (optional for wet waste)",
-          "c2": "Water Scrubber for pollution control",
-          "c3": "Air Blower for airflow management",
-          "c4": "Ash Collection tray",
-          "c5": "Chimney for smoke exhaust"
+          "c1": "燃料インジェクター（湿潤廃棄物用・オプション）",
+          "c2": "排ガス浄化用ウォータースクラバー",
+          "c3": "空気供給用ブロワー",
+          "c4": "灰回収トレイ",
+          "c5": "排煙用煙突"
         }
       },
       "applications": {
-        "title": "Applications",
+        "title": "用途",
         "list": {
-          "a1": "Hospitals and healthcare centers",
-          "a2": "Offices and commercial buildings",
-          "a3": "Factories and industries",
-          "a4": "Schools and institutions",
-          "a5": "Apartments and residential areas",
-          "a6": "Public places and municipalities"
+          "a1": "病院および医療施設",
+          "a2": "オフィスおよび商業施設",
+          "a3": "工場および産業施設",
+          "a4": "学校および教育機関",
+          "a5": "集合住宅および住宅地域",
+          "a6": "公共施設および自治体"
         }
       },
       "gallery": {
-        "title": "Project Gallery",
+        "title": "プロジェクトギャラリー",
         "images": {
           "i1": "/projects&products/incinerator/incgallery1.jpg",
           "i2": "/projects&products/incinerator/incgallery2.jpg",
@@ -1194,53 +1194,53 @@
       }
     },
     "modularToilet": {
-      "title": "Modular Toilet Solution",
-      "description": "Smart, hygienic and durable sanitation solution for modern infrastructure.",
+      "title": "モジュラートイレソリューション",
+      "description": "現代インフラに適した、スマートで衛生的かつ耐久性の高いトイレソリューション。",
       "about": {
-        "title": "About Modular Toilets",
-        "desc": "Modular toilets are prefabricated sanitation systems designed for clean, safe, and efficient public hygiene. They are easy to install, low maintenance, and suitable for both urban and rural environments."
+        "title": "モジュラートイレについて",
+        "desc": "モジュラートイレは、清潔で安全かつ効率的な公共衛生環境を実現するために設計されたプレハブ型のトイレシステムです。設置が簡単でメンテナンスコストも低く、都市部および農村部の両方に適しています。"
       },
       "features": {
-        "title": "Key Features",
+        "title": "主な特徴",
         "list": {
-          "f1": "Portable and dismantlable structure",
-          "f2": "Quick installation within 7 days",
-          "f3": "Low maintenance and cost-effective",
-          "f4": "Robust steel insulated structure",
-          "f5": "Concealed plumbing and electrical fittings",
-          "f6": "Non-slippery flooring for safety",
-          "f7": "Wash basin near entrance",
-          "f8": "Ensures hygiene, safety and privacy",
-          "f9": "One-stop solution with waste management"
+          "f1": "持ち運び可能で分解可能な構造",
+          "f2": "7日以内の迅速な設置",
+          "f3": "低メンテナンスでコスト効率が高い",
+          "f4": "高耐久の断熱鋼構造",
+          "f5": "配管および電気設備の隠蔽設計",
+          "f6": "安全性を高める滑りにくい床",
+          "f7": "入口付近に洗面台を設置",
+          "f8": "衛生・安全・プライバシーを確保",
+          "f9": "廃棄物管理を含むワンストップソリューション"
         }
       },
       "specs": {
-        "title": "Specifications",
+        "title": "仕様",
         "list": {
-          "s1": "Unit Size: 1220 mm x 1220 mm x 2025 mm",
-          "s2": "Wall: EPS insulated galvanized steel panels",
-          "s3": "Floor: Anti-skid tile finish",
-          "s4": "Door: Powder coated steel with accessories",
-          "s5": "Water Tank: 200 Litres capacity",
-          "s6": "Plumbing: Integrated piping system",
-          "s7": "Ventilation: 3-side airflow system",
-          "s8": "Waste Management: PVC septic tank",
-          "s9": "Closet: Ceramic Indian type"
+          "s1": "ユニットサイズ：1220mm × 1220mm × 2025mm",
+          "s2": "壁：EPS断熱ガルバリウム鋼パネル",
+          "s3": "床：滑り止めタイル仕上げ",
+          "s4": "ドア：粉体塗装鋼製（付属品付き）",
+          "s5": "給水タンク：容量200リットル",
+          "s6": "配管：一体型配管システム",
+          "s7": "換気：三方向通気システム",
+          "s8": "廃棄物処理：PVC製浄化槽",
+          "s9": "便器：セラミック製インド式トイレ"
         }
       },
       "applications": {
-        "title": "Applications",
+        "title": "用途",
         "list": {
-          "a1": "Public places (cities & villages)",
-          "a2": "Schools & colleges",
-          "a3": "Railway stations & bus stands",
-          "a4": "Tourist locations",
-          "a5": "Highways",
-          "a6": "Hospitals & offices"
+          "a1": "公共施設（都市および農村）",
+          "a2": "学校および大学",
+          "a3": "鉄道駅およびバスターミナル",
+          "a4": "観光地",
+          "a5": "高速道路",
+          "a6": "病院およびオフィス"
         }
       },
       "gallery": {
-        "title": "Project Gallery",
+        "title": "プロジェクトギャラリー",
         "images": {
           "i1": "/projects&products/modular_toilet/mtgallery1.png",
           "i2": "/projects&products/modular_toilet/mtgallery2.jpg",
@@ -1250,49 +1250,49 @@
       }
     },
     "vendingmachine": {
-      "title": "Automatic Snacks & Beverages Vending Machine",
-      "description": "Smart, automated vending solution providing snacks and beverages with convenience, hygiene, and efficiency.",
+      "title": "自動スナック＆飲料販売機",
+      "description": "利便性・衛生・効率を兼ね備えたスマートな自動販売ソリューション。",
       "about": {
-        "title": "About Us",
-        "desc": "YONG is a one-stop shop for vending solutions in India with over 10 years of experience. We provide high-quality vending machines with excellent service and support. Our vending solutions offer a quick and convenient way for people to grab snacks and beverages on the go, improving productivity and staff satisfaction."
+        "title": "会社概要",
+        "desc": "YONGはインドにおける自動販売ソリューションのワンストップ企業であり、10年以上の実績を誇ります。高品質な自動販売機と優れたサービス・サポートを提供しています。当社のソリューションは、スナックや飲料を手軽に購入できる環境を提供し、生産性向上と従業員満足度の向上に貢献します。"
       },
       "whyUs": {
-        "title": "Why Choose Us",
+        "title": "当社が選ばれる理由",
         "points": {
-          "p1": "Best quality machines in the market",
-          "p2": "Latest types of vending machines",
-          "p3": "Highly experienced technical team",
-          "p4": "Pan India service support",
-          "p5": "24/7 customer support",
-          "p6": "Effective customer service and operations",
-          "p7": "Branding opportunities at premium locations",
-          "p8": "Customized vending machines for specific projects"
+          "p1": "市場最高水準の品質を誇る機械",
+          "p2": "最新型の自動販売機ラインナップ",
+          "p3": "経験豊富な技術チーム",
+          "p4": "インド全土に対応したサービス体制",
+          "p5": "24時間365日のカスタマーサポート",
+          "p6": "効率的なカスタマーサービスと運用体制",
+          "p7": "高付加価値ロケーションでのブランディング機会",
+          "p8": "プロジェクトに応じたカスタマイズ対応"
         }
       },
       "vision": {
-        "title": "Vision",
-        "desc": "To be the foremost in the vending machine industry and allied categories."
+        "title": "ビジョン",
+        "desc": "自動販売機業界および関連分野において、最も信頼される企業となること。"
       },
       "mission": {
-        "title": "Mission",
-        "desc": "Making everyday convenience available – Easier, Smarter, Safer! Staying consumer-centric, data-led, and values-based in everything we do."
+        "title": "ミッション",
+        "desc": "日常の利便性をより簡単に、よりスマートに、より安全に提供すること。常に顧客中心・データ主導・価値重視の姿勢で取り組みます。"
       },
       "features": {
-        "title": "Features",
-        "desc": "Our vending machines are equipped with advanced cashless payment systems and smart automation. The plug-and-play payment device supports UPI and other digital payments with secure transactions. The system provides a user-friendly interface, instant refunds on failure, and ensures hygienic, touch-free dispensing. Designed for Indian market needs, it offers reliability, efficiency, and minimal operating costs."
+        "title": "特徴",
+        "desc": "当社の自動販売機は高度なキャッシュレス決済システムとスマート自動化機能を搭載しています。プラグアンドプレイの決済デバイスはUPIおよび各種デジタル決済に対応し、安全な取引を実現します。ユーザーフレンドリーな操作性、トラブル時の即時返金、非接触で衛生的な商品提供を実現。インド市場のニーズに合わせた高い信頼性と効率性、低運用コストを提供します。"
       },
       "tray": {
-        "title": "Tray Structure",
-        "desc": "The vending machine is designed with a total of 6 trays for efficient product organization and dispensing.",
+        "title": "トレイ構成",
+        "desc": "本機は効率的な商品配置と供給のために合計6段のトレイで構成されています。",
         "details": {
-          "d1": "3 trays for snacks (each tray has 4 spirals, each spiral holds up to 12 snack items)",
-          "d2": "1 tray for chocolates & biscuits (8 spirals, each spiral holds up to 18 chocolates or 10 biscuits)",
-          "d3": "2 trays for beverages (7 spirals, each spiral holds up to 7 beverage items)"
+          "d1": "スナック用トレイ3段（各段4スパイラル、各スパイラル最大12商品）",
+          "d2": "チョコレート・ビスケット用トレイ1段（8スパイラル、各スパイラル最大チョコ18個またはビスケット10個）",
+          "d3": "飲料用トレイ2段（7スパイラル、各スパイラル最大7本）"
         },
-        "note": "Tray configuration can be customized based on customer requirements."
+        "note": "トレイ構成はお客様の要望に応じてカスタマイズ可能です。"
       },
       "customers": {
-        "title": "Satisfied Customers",
+        "title": "導入実績（顧客一覧）",
         "list": {
           "c1": "IBS Software Services Pvt Ltd",
           "c2": "Envestnet",
@@ -1306,11 +1306,11 @@
           "c10": "Brennan IT India Pvt Ltd",
           "c11": "Acsia Technologies Pvt Ltd",
           "c12": "Aspire Systems",
-          "c13": "EY (Ernst & Young)"
+          "c13": "EY（Ernst & Young）"
         }
       },
       "gallery": {
-        "title": "Project Gallery",
+        "title": "プロジェクトギャラリー",
         "images": {
           "i1": "/projects&products/vending_machine/vmgallery1.jpg",
           "i2": "/projects&products/vending_machine/vmgallery2.jpg",
@@ -1319,59 +1319,59 @@
       }
     },
     "napkinVending": {
-      "title": "Sanitary Napkin Vending Machine",
-      "description": "Automated vending solution ensuring easy, hygienic and private access to sanitary napkins for women.",
+      "title": "生理用ナプキン自動販売機",
+      "description": "女性が簡単かつ衛生的に、プライバシーを保ちながらナプキンを入手できる自動販売ソリューション。",
       "about": {
-        "title": "About Machine",
-        "desc": "Sanitary Napkin Vending Machines provide 24x7 availability of sanitary products without human interaction, reducing embarrassment and improving menstrual hygiene awareness."
+        "title": "機械について",
+        "desc": "生理用ナプキン自動販売機は、24時間いつでも人と接触することなく衛生用品を入手できるシステムです。購入時の心理的負担を軽減し、月経衛生への意識向上にも貢献します。"
       },
       "features": {
-        "title": "Key Features",
+        "title": "主な特徴",
         "list": {
-          "f1": "Fully electronic vending machine with LCD display",
-          "f2": "Spiral coil mechanism for reliable dispensing",
-          "f3": "Electronic coin acceptor with multi-coin support",
-          "f4": "USB data retrieval for sales tracking",
-          "f5": "User-friendly product display system",
-          "f6": "Customizable for different products",
-          "f7": "Automatic stock detection with refund system"
+          "f1": "LCDディスプレイ搭載の完全電子式自動販売機",
+          "f2": "高い信頼性を持つスパイラルコイル排出機構",
+          "f3": "複数硬貨対応の電子式コインセレクター",
+          "f4": "販売データ取得用USB機能",
+          "f5": "使いやすい商品表示システム",
+          "f6": "複数商品に対応可能なカスタマイズ設計",
+          "f7": "在庫自動検知および返金機能付き"
         }
       },
       "advantages": {
-        "title": "Advantages",
+        "title": "導入メリット",
         "list": {
-          "a1": "24x7 availability of sanitary napkins",
-          "a2": "Eliminates embarrassment during purchase",
-          "a3": "Reduces absenteeism in schools and offices",
-          "a4": "Quick and convenient access",
-          "a5": "No need to carry napkins in advance"
+          "a1": "24時間いつでも利用可能",
+          "a2": "購入時の心理的負担を軽減",
+          "a3": "学校や職場での欠席率の低減",
+          "a4": "迅速かつ便利に利用可能",
+          "a5": "事前に持ち歩く必要がない"
         }
       },
       "specs": {
-        "title": "Technical Specifications",
+        "title": "技術仕様",
         "list": {
-          "s1": "Fully automated electronic programmable machine",
-          "s2": "Wall mounted design",
-          "s3": "Two spiral product columns",
-          "s4": "Storage capacity: 78 napkins (26 packs)",
-          "s5": "Dimensions: 600 x 150 x 650 mm",
-          "s6": "Weight: 14 kg",
-          "s7": "Power: 230V / 50Hz",
-          "s8": "Made with anti-corrosive powder coated steel"
+          "s1": "完全自動電子プログラム制御",
+          "s2": "壁掛け設置タイプ",
+          "s3": "スパイラル式商品列（2列）",
+          "s4": "収納容量：ナプキン78枚（26パック）",
+          "s5": "サイズ：600 × 150 × 650 mm",
+          "s6": "重量：14kg",
+          "s7": "電源：230V / 50Hz",
+          "s8": "防錆加工済み粉体塗装スチール製"
         }
       },
       "applications": {
-        "title": "Applications",
+        "title": "用途",
         "list": {
-          "p1": "Schools and colleges",
-          "p2": "Hospitals and health centers",
-          "p3": "Offices and workplaces",
-          "p4": "Public places and transport hubs",
-          "p5": "Hostels and institutions"
+          "p1": "学校および大学",
+          "p2": "病院および医療施設",
+          "p3": "オフィスおよび職場",
+          "p4": "公共施設および交通拠点",
+          "p5": "寮および教育機関"
         }
       },
       "gallery": {
-        "title": "Project Gallery",
+        "title": "プロジェクトギャラリー",
         "images": {
           "i1": "/projects&products/napkin_vm/napkingallery1.jpg",
           "i2": "/projects&products/napkin_vm/napkingallery2.jpg",
@@ -1380,67 +1380,66 @@
       }
     },
     "menstrualCup": {
-      "title": "Menstrual Cup (M-Cup)",
-      "description": "A safe, reusable and eco-friendly menstrual hygiene solution designed for comfort, cost savings and sustainability.",
+      "title": "月経カップ（Mカップ）",
+      "description": "快適さ・コスト削減・環境配慮を実現する、安全で再利用可能な月経衛生用品。",
       "about": {
-        "title": "About Menstrual Cup",
-        "desc": "The Menstrual Cup is a medical-grade silicone product worn internally during menstruation to collect menstrual fluid. It is reusable, flexible and provides a safe alternative to disposable sanitary products."
+        "title": "月経カップについて",
+        "desc": "月経カップは医療グレードのシリコンで作られた製品で、月経時に体内で使用し経血を収集します。再利用可能で柔軟性があり、使い捨ての衛生用品に代わる安全な選択肢です。"
       },
       "working": {
-        "title": "How It Works",
-        "desc": "The cup is inserted into the vagina where it collects menstrual fluid. It can be used for 4–12 hours depending on flow. After removal, it is emptied, washed and reused. At the end of the cycle, it is sterilized using boiling water."
+        "title": "使用方法",
+        "desc": "カップを膣内に挿入し、経血を内部に溜めます。経血量に応じて4～12時間使用可能です。取り出した後は内容物を捨てて洗浄し、再使用します。使用期間終了後は煮沸消毒を行います。"
       },
       "benefits": {
-        "title": "Benefits",
+        "title": "メリット",
         "list": {
-          "b1": "Reusable for 5 to 8 years reducing long-term cost",
-          "b2": "Eco-friendly and reduces sanitary waste",
-          "b3": "Can be used up to 12 hours without change",
-          "b4": "Less leakage compared to pads and tampons",
-          "b5": "Maintains natural vaginal pH balance",
-          "b6": "Lower risk of infection and irritation",
-          "b7": "No harmful chemicals or materials",
-          "b8": "Reduces menstrual odour",
-          "b9": "Helps track menstrual flow accurately"
+          "b1": "5～8年間繰り返し使用でき、長期的なコストを削減",
+          "b2": "環境に優しく、衛生廃棄物を削減",
+          "b3": "最長12時間使用可能",
+          "b4": "ナプキンやタンポンに比べ漏れが少ない",
+          "b5": "膣内の自然なpHバランスを維持",
+          "b6": "感染や刺激のリスクを低減",
+          "b7": "有害な化学物質を含まない",
+          "b8": "月経時の臭いを軽減",
+          "b9": "経血量を正確に把握可能"
         }
       },
       "why": {
-        "title": "Why Choose Menstrual Cup",
+        "title": "月経カップを選ぶ理由",
         "list": {
-          "w1": "Affordable alternative to disposable products",
-          "w2": "Reduces dependency on sanitary pads",
-          "w3": "Helps improve menstrual hygiene awareness",
-          "w4": "Eliminates disposal issues of sanitary waste",
-          "w5": "Supports sustainable lifestyle"
+          "w1": "使い捨て製品に比べ経済的",
+          "w2": "ナプキンへの依存を軽減",
+          "w3": "月経衛生への意識向上に貢献",
+          "w4": "衛生廃棄物の処理問題を軽減",
+          "w5": "持続可能なライフスタイルを支援"
         }
       },
       "standards": {
-        "title": "Quality Standards",
+        "title": "品質基準",
         "list": {
-          "s1": "ISO 10993-5 Cytotoxicity compliant",
-          "s2": "ISO 10993-10 Mucosal irritation tested",
-          "s3": "Sensitization tested for safety",
-          "s4": "Intracutaneous irritation tested",
-          "s5": "Intramuscular implantation tested",
-          "s6": "Vaginal irritation tested"
+          "s1": "ISO 10993-5 細胞毒性試験適合",
+          "s2": "ISO 10993-10 粘膜刺激試験適合",
+          "s3": "感作性試験による安全性確認済み",
+          "s4": "皮内刺激試験実施済み",
+          "s5": "筋肉内埋植試験実施済み",
+          "s6": "膣刺激試験実施済み"
         }
       },
       "kit": {
-        "title": "M-Cup Kit Components",
+        "title": "Mカップキット内容",
         "list": {
-          "k1": "Menstrual Cup (Medical grade silicone)",
-          "k2": "Collapsible sterilizer cup",
-          "k3": "Menstrual cup wash solution",
-          "k4": "Storage pouch"
+          "k1": "月経カップ（医療用シリコン製）",
+          "k2": "折りたたみ式消毒カップ",
+          "k3": "専用洗浄液",
+          "k4": "収納ポーチ"
         }
       },
       "gallery": {
-        "title": "Project Gallery",
+        "title": "プロジェクトギャラリー",
         "images": {
           "i1": "/projects&products/notfound.png",
           "i2": "/projects&products/notfound.png",
           "i3": "/projects&products/notfound.png"
-          
         }
       }
     },
