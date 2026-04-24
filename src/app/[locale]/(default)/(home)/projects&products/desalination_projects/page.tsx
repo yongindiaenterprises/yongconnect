@@ -20,9 +20,12 @@ export default async function DesalinationProjectPage({
     namespace: 'projects&products',
   });
 
-  // ✅ Get categories from JSON (object → array)
-  const categories = Object.values(
-    t.raw('desalination.categories' as any) || {},
+  const seawaterCategories = Object.values(
+    t.raw('desalination.seawater_desalination_plants.categories' as any) || {}
+  ) as any[];
+
+  const brackishCategories = Object.values(
+    t.raw('desalination.brackish_desalination_plants.categories' as any) || {}
   ) as any[];
 
   const projects = Object.values(
@@ -32,7 +35,89 @@ export default async function DesalinationProjectPage({
     image: string;
     desc: string;
   }[];
-  const table = t.raw("desalination.categories.c1.table" as any);
+  
+
+  function renderCategoryGrid(categories: any[]) {
+    return (
+      <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
+        {categories.map((cat: any, i: number) => {
+          const subcategories = Object.values(cat.subcategories || {}) as string[];
+
+          return (
+            <div
+              key={cat.id || i}
+              className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-xl backdrop-blur-lg transition hover:scale-[1.02]"
+            >
+              <ImageLightbox
+                src={cat.image}
+                alt={cat.title}
+                className="h-52 w-full rounded-t-2xl overflow-hidden"
+              />
+
+              <div className="p-6 text-left">
+                <h3 className="mb-3 text-xl font-semibold text-white">
+                  {cat.title}
+                </h3>
+
+                {cat.volumes && (
+                  <div className="mb-4">
+                    <div className="rounded-md px-4 py-2 text-sm border border-white/10">
+                      <span className="text-white/70">Treated water volume</span>
+                      <br />
+                      <span className="text-lg font-semibold text-white">
+                        {cat.volumes}
+                      </span>
+                    </div>
+                  </div>
+                )}
+
+                <div className="mb-4">
+                  <h4 className="mb-2 text-sm text-gray-300">Variants:</h4>
+                  <ul className="flex flex-wrap gap-2">
+                    {subcategories.map((sub, j) => (
+                      <li
+                        key={j}
+                        className="rounded-full bg-green-600/20 px-3 py-1 text-xs text-green-400"
+                      >
+                        {sub}
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+
+                {/* Points */}
+                {cat.points?.title1 && (
+                  <div className="mb-3 bg-white/5 border border-white/10 rounded-lg p-4">
+                    <p className="text-green-400 font-semibold">
+                      {cat.points.title1}
+                    </p>
+                    <p className="text-white/70 text-sm mt-1">
+                      {cat.points.desc1}
+                    </p>
+                  </div>
+                )}
+
+                {/* Plan */}
+                <ImageLightbox
+                  src={cat.planImage}
+                  alt="Plan"
+                  className="h-64 w-full rounded-lg border border-white/10 overflow-hidden"
+                />
+
+                {/* Table */}
+                {cat?.table && (
+                  <DesalinationTableViewer
+                    models={cat.table.models}
+                    rowLabels={cat.table.rowLabels}
+                  />
+                )}
+              </div>
+            </div>
+          );
+        })}
+      </div>
+    );
+  }
 
   return (
     <>
@@ -88,113 +173,29 @@ export default async function DesalinationProjectPage({
 
 
 
-      {/* 🔷 CATEGORY GRID */}
-      <section className="mx-8 px-6 pb-20">
-        <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-3">
-          {categories.map((cat: any, i: number) => {
-            // ✅ FIX: convert inside map
-            const subcategories = Object.values(
-              cat.subcategories || {},
-            ) as string[];
-            const points = Object.values(cat.points || {}) as string[];
+      <section className="mx-8 px-6 pb-20 space-y-20">
 
-            return (
-              <div
-                key={cat.id || i}
-                className="overflow-hidden rounded-2xl border border-white/10 bg-white/5 shadow-xl backdrop-blur-lg transition hover:scale-[1.02]"
-              >
-                {/* Image */}
-                <ImageLightbox
-                  src={cat.image}
-                  alt={cat.title}
-                  className="h-52 w-full rounded-t-2xl overflow-hidden"
-                />
+        {/* 🌊 SEAWATER */}
+        {seawaterCategories.length > 0 && (
+          <>
+            <h2 className="text-3xl font-bold text-white text-center">
+              Seawater Desalination Plants
+            </h2>
 
-                {/* Content */}
-                <div className="p-6 text-left">
-                  <h3 className="mb-3 text-xl font-semibold text-white">
-                    {cat.title}
-                  </h3>
+            {renderCategoryGrid(seawaterCategories)}
+          </>
+        )}
 
-                  {/* 🔷 Treated Water Volume */}
-                  {cat.volumes && (
-                    <div className="mb-4">
-                      <div className="inline-block rounded-md hover:bg-black/60 px-4 py-2 text-sm text-white border border-white/10">
-                        <span className="text-white/70">Treated water volume</span>
-                        <br />
-                        <span className="text-lg font-semibold text-white">
-                          {cat.volumes}
-                        </span>
-                      </div>
-                    </div>
-                  )}
+        {/* 💧 BRACKISH */}
+        {brackishCategories.length > 0 && (
+          <>
+            <h2 className="text-3xl font-bold text-white text-center">
+              Brackish Water Plants
+            </h2>
 
-                  {/* Subcategories */}
-                  <div className="mb-4">
-                    <h4 className="mb-2 text-sm text-gray-300">
-                      Variants:
-                    </h4>
-
-                    <ul className="flex flex-wrap gap-2">
-                      {subcategories.map((sub, j) => (
-                        <li
-                          key={j}
-                          className="rounded-full bg-green-600/20 px-3 py-1 text-xs text-green-400 transition-transform duration-300 hover:scale-110 hover:bg-white hover:text-black"
-                        >
-                          {sub}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-
-                  {/* 🔷 Specifications / Points */}
-                  <div className="mb-4 space-y-3">
-
-                    {cat.points?.title1 && (
-                      <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-                        <p className="text-green-400 font-semibold">
-                          {cat.points.title1}
-                        </p>
-                        <p className="text-white/70 text-sm mt-1">
-                          {cat.points.desc1}
-                        </p>
-                      </div>
-                    )}
-
-                    {cat.points?.title2 && (
-                      <div className="bg-white/5 border border-white/10 rounded-lg p-4">
-                        <p className="text-green-400 font-semibold">
-                          {cat.points.title2}
-                        </p>
-                        <p className="text-white/70 text-sm mt-1">
-                          {cat.points.desc2}
-                        </p>
-                      </div>
-                    )}
-
-                  </div>
-
-                  {/* Plan Image */}
-                  <ImageLightbox
-                    src={cat.planImage}
-                    alt="Plan"
-                    className="h-64 w-full rounded-lg border border-white/10 overflow-hidden"
-                  />
-                  {cat?.table && (
-                    <DesalinationTableViewer
-                      models={cat.table.models}
-                      rowLabels={cat.table.rowLabels}
-                    />
-                  )}
-
-                </div>
-
-              </div>
-
-            );
-          })}
-
-        </div>
+            {renderCategoryGrid(brackishCategories)}
+          </>
+        )}
 
       </section>
     </>
