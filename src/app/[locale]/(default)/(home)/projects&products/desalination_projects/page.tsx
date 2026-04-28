@@ -35,7 +35,7 @@ export default async function DesalinationProjectPage({
     image: string;
     desc: string;
   }[];
-  
+
 
   function renderCategoryGrid(categories: any[]) {
     return (
@@ -61,12 +61,18 @@ export default async function DesalinationProjectPage({
 
                 {cat.volumes && (
                   <div className="mb-4">
-                    <div className="rounded-md px-4 py-2 text-sm border border-white/10">
-                      <span className="text-white/70">Treated water volume</span>
-                      <br />
-                      <span className="text-lg font-semibold text-white">
-                        {cat.volumes}
-                      </span>
+                    <div className="rounded-md px-4 py-2 text-sm border border-white/10 transition">
+                      <div className="inline-block hover:scale-[1.05] hover:border-green-300 transition border border-transparent rounded-md px-2 py-1">
+
+                        <span className="text-white/70">Treated water volume</span>
+                        <br />
+
+                        <span className="text-lg font-semibold text-white">
+                          {cat.volumes}
+                        </span>
+
+                      </div>
+
                     </div>
                   </div>
                 )}
@@ -77,7 +83,7 @@ export default async function DesalinationProjectPage({
                     {subcategories.map((sub, j) => (
                       <li
                         key={j}
-                        className="rounded-full bg-green-600/20 px-3 py-1 text-xs text-green-400"
+                        className="rounded-full bg-green-600/20 px-3 py-1 text-xs text-green-400 hover:bg-white hover:text-black transition hover:scale-[1.1]"
                       >
                         {sub}
                       </li>
@@ -86,6 +92,7 @@ export default async function DesalinationProjectPage({
                 </div>
 
                 {/* Points */}
+
                 {cat.points?.title1 && (
                   <div className="mb-3 bg-white/5 border border-white/10 rounded-lg p-4">
                     <p className="text-green-400 font-semibold">
@@ -93,6 +100,17 @@ export default async function DesalinationProjectPage({
                     </p>
                     <p className="text-white/70 text-sm mt-1">
                       {cat.points.desc1}
+                    </p>
+                  </div>
+                )}
+
+                {cat.points?.title2 && (
+                  <div className="mb-3 bg-white/5 border border-white/10 rounded-lg p-4">
+                    <p className="text-green-400 font-semibold">
+                      {cat.points.title2}
+                    </p>
+                    <p className="text-white/70 text-sm mt-1">
+                      {cat.points.desc2}
                     </p>
                   </div>
                 )}

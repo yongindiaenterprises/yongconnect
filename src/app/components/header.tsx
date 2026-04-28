@@ -16,7 +16,7 @@ const Header = ({ locale }: { locale: string }) => {
   const [isOpen, setIsOpen] = useState(false);
   const [isFormOpen, setIsFormOpen] = useState(false);
   const [openDropdown, setOpenDropdown] = useState(false);
-
+  
   return (
     <header className="sticky top-0 z-50 mx-auto max-h-32 bg-background text-white sm:bg-background">
       <div className="flex w-full items-center justify-between px-10 py-5 md:px-20 md:py-10 lg:px-32">
