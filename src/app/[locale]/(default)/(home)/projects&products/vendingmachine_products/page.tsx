@@ -84,20 +84,33 @@ export default async function VendingMachinePage({
       </section>
 
       {/* 🔷 WHY US */}
-      <section className="bg-white/5 px-6 py-16">
+      <section className="bg-white/5 px-6 py-20">
         <div className="mx-auto max-w-6xl text-center">
-          <h2 className="mb-8 text-3xl font-semibold text-white">
+
+          <h2 className="mb-6 text-3xl font-semibold text-white">
             {t('vendingmachine.whyUs.title')}
           </h2>
 
+          {/* SVG */}
+          <div className="flex justify-center mb-10">
+            <Image
+              src={t("images.illustrations.images.i8")}
+              alt="Why Us"
+              width={300}
+              height={300}
+            />
+          </div>
+
           <div className="grid gap-6 md:grid-cols-3">
             {whyUs.map((item, i) => (
-              <div key={i} className="text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105 p-6 ">
+              <div key={i}
+                className="text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+          hover:bg-white/10 transition-all duration-300 hover:scale-105 p-6">
                 ✅ {item}
               </div>
             ))}
           </div>
+
         </div>
       </section>
 
@@ -121,15 +134,27 @@ export default async function VendingMachinePage({
       </section>
 
       {/* 🔷 FEATURES */}
-      <section className="bg-white/5 px-6 py-16">
-        <div className="mx-auto max-w-4xl text-center">
+      <section className="bg-white/5 px-6 py-20 text-center">
+        <div className="mx-auto max-w-4xl">
+
           <h2 className="mb-6 text-3xl font-semibold text-white">
             {t('vendingmachine.features.title')}
           </h2>
 
-          <p className="leading-relaxed text-white/70 transition-all duration-300 hover:scale-125 hover:text-green-500">
+          {/* SVG */}
+          <div className="flex justify-center mb-10">
+            <Image
+              src={t("images.illustrations.images.i2")}
+              alt="Features"
+              width={280}
+              height={280}
+            />
+          </div>
+
+          <p className="leading-relaxed text-white/70 hover:scale-110 hover:text-green-500 transition">
             {t('vendingmachine.features.desc')}
           </p>
+
         </div>
       </section>
 
@@ -167,20 +192,33 @@ export default async function VendingMachinePage({
       </section>
 
       {/* 🔷 CUSTOMERS */}
-      <section className="bg-white/5 px-6 py-16">
-        <div className="mx-auto max-w-6xl text-center">
-          <h2 className="mb-10 text-3xl font-semibold text-white">
+      <section className="bg-white/5 px-6 py-20 text-center">
+        <div className="mx-auto max-w-6xl">
+
+          <h2 className="mb-6 text-3xl font-semibold text-white">
             {t('vendingmachine.customers.title')}
           </h2>
 
+          {/* SVG */}
+          <div className="flex justify-center mb-10">
+            <Image
+              src={t("images.illustrations.images.i9")}
+              alt="Customers"
+              width={280}
+              height={280}
+            />
+          </div>
+
           <div className="grid gap-6 md:grid-cols-3">
             {customers.map((item, i) => (
-              <div key={i} className=" p-6 text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105">
+              <div key={i}
+                className="p-6 text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+          hover:bg-white/10 transition-all duration-300 hover:scale-105">
                 📍 {item}
               </div>
             ))}
           </div>
+
         </div>
       </section>
 

@@ -40,7 +40,7 @@ export default async function IncineratorPage({
     t.raw("incinerator.applications.list" as any) || {}
   ) as string[];
 
-   const images = Object.values(
+  const images = Object.values(
     t.raw("incinerator.gallery.images" as any) || {}
   ) as string[];
 
@@ -74,25 +74,53 @@ export default async function IncineratorPage({
       </section>
 
       {/* 🔷 ABOUT */}
-      <section className="px-6 py-16 text-center text-white">
-        <h2 className="text-3xl mb-4">
-          {t("incinerator.about.title")}
-        </h2>
-        <p className="max-w-4xl mx-auto text-white/70 transition-all duration-300 hover:scale-125 hover:text-green-500">
-          {t("incinerator.about.desc")}
-        </p>
+      <section className="px-6 py-20 text-white">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+          {/* TEXT */}
+          <div>
+            <h2 className="text-4xl font-bold mb-4">
+              {t("incinerator.about.title")}
+            </h2>
+            <p className="text-white/70 leading-relaxed transition-all duration-300 hover:scale-110 hover:text-green-500">
+              {t("incinerator.about.desc")}
+            </p>
+          </div>
+
+          {/* SVG */}
+          <div className="flex justify-center">
+            <Image
+              src={t("images.illustrations.images.i1")}
+              alt="About"
+              width={400}
+              height={400}
+            />
+          </div>
+
+        </div>
       </section>
 
       {/* 🔷 FEATURES */}
-      <section className="mx-8 py-16">
-        <h2 className="text-3xl text-white text-center mb-10">
+      <section className="mx-8 py-20">
+        <h2 className="text-3xl text-white text-center mb-6">
           {t("incinerator.features.title")}
         </h2>
 
+        {/* SVG */}
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i2")}
+            alt="Features"
+            width={300}
+            height={300}
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((item, index) => (
-            <div key={index} className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105 text-white">
+            <div key={index}
+              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+        hover:bg-white/10 transition-all duration-300 hover:scale-105 text-white">
               ✅ {item}
             </div>
           ))}
@@ -100,15 +128,25 @@ export default async function IncineratorPage({
       </section>
 
       {/* 🔷 TYPES */}
-      <section className="px-6 py-16 text-white">
-        <h2 className="text-3xl text-center mb-10">
+      <section className="px-6 py-20 text-white text-center">
+        <h2 className="text-3xl mb-6">
           {t("incinerator.types.title")}
         </h2>
 
-        <div className="grid md:grid-cols-4 gap-6 text-center">
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i6")}
+            alt="Types"
+            width={280}
+            height={280}
+          />
+        </div>
+
+        <div className="grid md:grid-cols-4 gap-6">
           {types.map((item, index) => (
-            <div key={index} className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105">
+            <div key={index}
+              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+        hover:bg-white/10 transition-all duration-300 hover:scale-105">
               ⚙ {item}
             </div>
           ))}
@@ -116,28 +154,59 @@ export default async function IncineratorPage({
       </section>
 
       {/* 🔷 SPECIFICATIONS */}
-      <section className="mx-8 py-16 text-white">
-        <h2 className="text-3xl text-center mb-10">
-          {t("incinerator.specs.title")}
-        </h2>
+      <section className="px-6 py-20 text-white">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
-        <div className="max-w-4xl mx-auto space-y-3">
-          {specs.map((item, index) => (
-            <p className="hover:text-green-500 transition-transform duration-300 hover:scale-105" key={index}>✔ {item}</p>
-          ))}
+          {/* SVG */}
+          <div className="flex justify-center">
+            <Image
+              src={t("images.illustrations.images.i4")}
+              alt="Specifications"
+              width={350}
+              height={350}
+            />
+          </div>
+
+          {/* TEXT */}
+          <div>
+            <h2 className="text-3xl mb-6">
+              {t("incinerator.specs.title")}
+            </h2>
+
+            <div className="space-y-3">
+              {specs.map((item, index) => (
+                <p key={index}
+                  className="hover:text-green-500 transition-transform duration-300 hover:scale-105">
+                  ✔ {item}
+                </p>
+              ))}
+            </div>
+          </div>
+
         </div>
       </section>
 
+
       {/* 🔷 COMPONENTS */}
-      <section className="px-6 py-16">
-        <h2 className="text-3xl text-white text-center mb-10">
+      <section className="px-6 py-20 text-center text-white">
+        <h2 className="text-3xl mb-6">
           {t("incinerator.components.title")}
         </h2>
 
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i7")}
+            alt="Components"
+            width={300}
+            height={300}
+          />
+        </div>
+
         <div className="grid md:grid-cols-3 gap-6">
           {components.map((item, index) => (
-            <div key={index} className="p-6 text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105">
+            <div key={index}
+              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+        hover:bg-white/10 transition-all duration-300 hover:scale-105">
               🔧 {item}
             </div>
           ))}
@@ -145,41 +214,50 @@ export default async function IncineratorPage({
       </section>
 
       {/* 🔷 APPLICATIONS */}
-      <section className="mx-8 py-16">
-        <h2 className="text-3xl text-white text-center mb-10">
+      <section className="mx-8 py-20 text-center">
+        <h2 className="text-3xl text-white mb-6">
           {t("incinerator.applications.title")}
         </h2>
 
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i4")}
+            alt="Applications"
+            width={300}
+            height={300}
+          />
+        </div>
+
         <div className="grid md:grid-cols-3 gap-6">
           {applications.map((item, index) => (
-            <div key={index} className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105 text-center text-white">
+            <div key={index}
+              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+        hover:bg-white/10 transition-all duration-300 hover:scale-105 text-white">
               ⭐ {item}
             </div>
           ))}
         </div>
       </section>
+      {/* 🔷 GALLERY */}
+      <section className="px-6 pb-20">
+        <h2 className="text-3xl text-white text-center mb-6">
+          {t("modularToilet.gallery.title")}
+        </h2>
 
-            {/* 🔷 GALLERY */}
-            <section className="px-6 pb-20">
-              <h2 className="text-3xl text-white text-center mb-6">
-                {t("modularToilet.gallery.title")}
-              </h2>
-      
-              {/* SVG */}
-              <div className="flex justify-center mb-10">
-                <Image
-                  src={t("images.illustrations.images.i5")}
-                  alt="Gallery"
-                  width={280}
-                  height={280}
-                />
-              </div>
-      
-              <GalleryClient images={images} />
-      
-      
-            </section>
+        {/* SVG */}
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i5")}
+            alt="Gallery"
+            width={280}
+            height={280}
+          />
+        </div>
+
+        <GalleryClient images={images} />
+
+
+      </section>
     </>
   );
 }

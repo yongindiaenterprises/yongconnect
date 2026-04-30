@@ -68,35 +68,73 @@ export default async function MenstrualCupPage({
       </section>
 
       {/* 🔷 ABOUT */}
-      <section className="px-6 py-16 text-center text-white">
-        <h2 className="text-3xl mb-4">
-          {t("menstrualCup.about.title")}
-        </h2>
-        <p className="max-w-4xl mx-auto text-white/70 transition-all duration-300 hover:scale-125 hover:text-green-500">
-          {t("menstrualCup.about.desc")}
-        </p>
+      <section className="px-6 py-20 text-white">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+
+          {/* TEXT */}
+          <div>
+            <h2 className="text-4xl font-bold mb-4">
+              {t("menstrualCup.about.title")}
+            </h2>
+            <p className="text-white/70 leading-relaxed transition-all duration-300 hover:scale-110 hover:text-green-500">
+              {t("menstrualCup.about.desc")}
+            </p>
+          </div>
+
+          {/* SVG */}
+          <div className="flex justify-center">
+            <Image
+              src={t("images.illustrations.images.i1")}
+              alt="About"
+              width={350}
+              height={350}
+            />
+          </div>
+
+        </div>
       </section>
 
       {/* 🔷 WORKING */}
-      <section className="mx-8 py-16 text-white text-center">
-        <h2 className="text-3xl mb-4">
+      <section className="mx-8 py-20 text-center text-white">
+        <h2 className="text-3xl mb-6">
           {t("menstrualCup.working.title")}
         </h2>
-        <p className="max-w-3xl mx-auto text-white/70 transition-all duration-300 hover:scale-125 hover:text-green-500">
+
+        {/* SVG */}
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i11")}
+            alt="Working"
+            width={280}
+            height={280}
+          />
+        </div>
+
+        <p className="max-w-3xl mx-auto text-white/70 transition-all duration-300 hover:scale-110 hover:text-green-500">
           {t("menstrualCup.working.desc")}
         </p>
       </section>
 
       {/* 🔷 BENEFITS */}
-      <section className="px-6 py-16">
-        <h2 className="text-3xl text-white text-center mb-10">
+      <section className="px-6 py-20 text-center">
+        <h2 className="text-3xl text-white mb-6">
           {t("menstrualCup.benefits.title")}
         </h2>
 
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i10")}
+            alt="Benefits"
+            width={280}
+            height={280}
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {benefits.map((item, index) => (
-            <div key={index} className="p-6 text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105">
+            <div key={index}
+              className="p-6 text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+        hover:bg-white/10 transition-all duration-300 hover:scale-105">
               ✅ {item}
             </div>
           ))}
@@ -104,15 +142,25 @@ export default async function MenstrualCupPage({
       </section>
 
       {/* 🔷 WHY */}
-      <section className="mx-8 py-16">
-        <h2 className="text-3xl text-white text-center mb-10">
+      <section className="mx-8 py-20 text-center text-white">
+        <h2 className="text-3xl mb-6">
           {t("menstrualCup.why.title")}
         </h2>
 
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i8")}
+            alt="Why"
+            width={280}
+            height={280}
+          />
+        </div>
+
         <div className="grid md:grid-cols-3 gap-6">
           {why.map((item, index) => (
-            <div key={index} className="p-6 text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105">
+            <div key={index}
+              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+        hover:bg-white/10 transition-all duration-300 hover:scale-105">
               ⭐ {item}
             </div>
           ))}
@@ -120,28 +168,58 @@ export default async function MenstrualCupPage({
       </section>
 
       {/* 🔷 STANDARDS */}
-      <section className="px-6 py-16 text-white">
-        <h2 className="text-3xl text-center mb-10">
-          {t("menstrualCup.standards.title")}
-        </h2>
+      <section className="px-6 py-20 text-white">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
 
-        <div className="max-w-4xl mx-auto space-y-3">
-          {standards.map((item, index) => (
-            <p className="hover:text-green-500 transition-transform duration-300 hover:scale-105" key={index}>✔ {item}</p>
-          ))}
+          {/* SVG */}
+          <div className="flex justify-center">
+            <Image
+              src={t("images.illustrations.images.i12")}
+              alt="Standards"
+              width={320}
+              height={320}
+            />
+          </div>
+
+          {/* TEXT */}
+          <div>
+            <h2 className="text-3xl mb-6">
+              {t("menstrualCup.standards.title")}
+            </h2>
+
+            <div className="space-y-3">
+              {standards.map((item, index) => (
+                <p key={index}
+                  className="hover:text-green-500 hover:scale-105 transition">
+                  ✔ {item}
+                </p>
+              ))}
+            </div>
+          </div>
+
         </div>
       </section>
 
       {/* 🔷 KIT */}
-      <section className="mx-8 py-16">
-        <h2 className="text-3xl text-white text-center mb-10">
+      <section className="mx-8 py-20 text-center text-white">
+        <h2 className="text-3xl mb-6">
           {t("menstrualCup.kit.title")}
         </h2>
 
+        <div className="flex justify-center mb-10">
+          <Image
+            src={t("images.illustrations.images.i7")}
+            alt="Kit"
+            width={280}
+            height={280}
+          />
+        </div>
+
         <div className="grid md:grid-cols-2 gap-6">
           {kit.map((item, index) => (
-            <div key={index} className="p-6 text-white rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
-                   hover:bg-white/10 transition-all duration-300 hover:scale-105">
+            <div key={index}
+              className="p-6 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-lg 
+        hover:bg-white/10 transition-all duration-300 hover:scale-105">
               🎁 {item}
             </div>
           ))}

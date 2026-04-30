@@ -2101,9 +2101,9 @@
       "gallery": {
         "title": "Project Gallery",
         "images": {
-          "i1": "/projects&products/notfound.png",
-          "i2": "/projects&products/notfound.png",
-          "i3": "/projects&products/notfound.png"
+          "i1": "/projects&products/menstrual_cup/mcupgallery1.jpg",
+          "i2": "/projects&products/menstrual_cup/mcupgallery2.jpg",
+          "i3": "/projects&products/menstrual_cup/mcupgallery3.webp"
         }
       }
     },
@@ -2111,11 +2111,18 @@
       "illustrations": {
         "title": "png images",
         "images": {
-          "i1": "/projects&products/modular_toilet/about.svg",
-          "i2": "/projects&products/modular_toilet/features.svg",
-          "i3": "/projects&products/modular_toilet/specifications.svg",
-          "i4": "/projects&products/modular_toilet/application.svg",
-          "i5": "/projects&products/modular_toilet/gallery.svg"
+          "i1": "/projects&products/about.svg",
+          "i2": "/projects&products/features.svg",
+          "i3": "/projects&products/specifications.svg",
+          "i4": "/projects&products/application.svg",
+          "i5": "/projects&products/gallery.svg",
+          "i6": "/projects&products/category.svg",
+          "i7": "/projects&products/components.svg",
+          "i8": "/projects&products/why_choose.svg",
+          "i9": "/projects&products/customers.svg",
+          "i10": "/projects&products/advantages.svg",
+          "i11": "/projects&products/working.svg",
+          "i12": "/projects&products/standards.svg"
         }
       },
       "headingbg": {
